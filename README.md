@@ -30,6 +30,7 @@ My unique competitive moat —**"Del Diván al Dato"**— bridges the gap betwee
 
 | Project | Domain / Tech Stack | Key Architectural Metric | Links |
 | :--- | :--- | :--- | :--- |
+| **Psicología Efectiva** | Production HealthTech SaaS (Firebase, Firestore Rules, 20+ Tests, PDF Engine) | 20+ automated psychometric batteries; multi-tenant clinical isolation. | [Live Platform](https://psicologiaefectiva.web.app/) |
 | **DopamineScan** | Real-Time Telemetry & Biomarkers (Python, NumPy, SciPy, Web Audio) | ±2ms reaction time precision; 80% friction reduction. | [Live Demo](https://neurodeveloper11.github.io/dopaminescan/) • [Repo](https://github.com/neurodeveloper11/dopaminescan) |
 | **Behavioral Health Pipeline** | Distributed ETL/ELT Lakehouse (PySpark, PostgreSQL, dbt, Docker, BigQuery) | Processed 500k+ healthcare events in <45s; automated dbt audit trail. | [Repo](https://github.com/neurodeveloper11/behavioral-health-pipeline) |
 | **BTC Quant Lab** | Financial Time-Series ML (pandas, scikit-learn, FastAPI, Pydantic) | 118ms REST API latency; zero lookahead bias with walk-forward validation. | [Repo](https://github.com/neurodeveloper11) |
