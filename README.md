@@ -35,8 +35,10 @@ My unique competitive moat —**"Del Diván al Dato"**— bridges the gap betwee
 | **BTC Quant Lab** | Financial Time-Series ML (pandas, scikit-learn, FastAPI, Pydantic) | 118ms REST API latency; zero lookahead bias with walk-forward validation. | [Repo](https://github.com/neurodeveloper11) |
 | **Cognitive Agent Evaluator** | LLM Psychometric Calibration (Python, LLMs, PyTest) | 100+ stress scenarios; 60% reduction in prompt auditing cycle. | [Repo](https://github.com/neurodeveloper11/cognitive-agent-evaluator) |
 | **FairTalent Engine** | Algorithmic Fairness & Bias Mitigation (Fairlearn, Statistical Parity) | Automated enforcement of the Four-Fifths Rule for compliance. | [Repo](https://github.com/neurodeveloper11/fairtalent-engine) |
-| **NeuroGym Live** | Production Mobile Platform (React Native, SQLite, Firestore, AI) | Published on Google Play Store; 37+ games; 99.8% offline availability. | [Google Play](https://play.google.com/store/apps/details?id=com.t11.neurochess&hl=es_419) |
-| **SmartGym** | Offline-First Mobile Periodization (~19.6k LoC TypeScript, Jest) | 46 automated unit tests validating 1RM periodization algorithms. | [Code](https://github.com/neurodeveloper11) |
+| **NeuroGym Live** | Production Mobile Platform (React Native, SQLite, Firestore, AI) | Published on Google Play Store; 49 cognitive games; 99.8% offline availability. | [Google Play](https://play.google.com/store/apps/details?id=com.t11.neurochess&hl=es_419) |
+| **EnglishEasy** | Adaptive Language Learning & Multi-LLM (React, Vite, Vercel Serverless) | 45% load time reduction and 30% token optimization via smart proxy. | [Code](https://github.com/neurodeveloper11) |
+| **Centinela** | Native Android Anti-Theft Security (Kotlin, Jetpack Compose, PBKDF2) | Sub-15ms cryptographic unlock, Zero leaks at rest via Room DB & DataStore. | [Code](https://github.com/neurodeveloper11) |
+| **SmartGym** | Offline-First Mobile Periodization (TypeScript Clean Architecture, Jest) | 46 automated unit tests validating 1RM periodization algorithms. | [Code](https://github.com/neurodeveloper11) |
 
 ---
 
