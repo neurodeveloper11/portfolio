@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fabio Torres | Ingeniero en Ciencia de Datos, Machine Learning & Cloud Data Pipelines</title>
+  
+  <meta name="description" content="Portafolio profesional de Fabio Ignacio Torres Benítez: Ingeniero en Ciencia de Datos, Cloud Pipelines y Machine Learning con foso único en Psicología Cognitiva y Telemetría.">
+  <meta name="keywords" content="Fabio Torres, Data Science, Data Engineer, Machine Learning, Python, FastAPI, PySpark, Cloud Data Pipelines, NeuroGym, Del Divan al Dato, Portfolio">
+  <meta name="author" content="Fabio Ignacio Torres Benítez">
+  <link rel="canonical" href="https://neurodeveloper11.github.io/portfolio/">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://neurodeveloper11.github.io/portfolio/">
+  <meta property="og:title" content="Fabio Torres | Data Science Engineer & Machine Learning Portfolio">
+  <meta property="og:description" content="Production data pipelines, sub-120ms ML inference, offline-first architectures, and cognitive telemetry by Fabio Torres.">
+  <meta property="og:image" content="https://neurodeveloper11.github.io/portfolio/assets/og-preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Fabio Torres | Data Science Engineer & Machine Learning Portfolio">
+  <meta name="twitter:description" content="Production data pipelines, sub-120ms ML inference, offline-first architectures, and cognitive telemetry.">
+  <meta name="twitter:image" content="https://neurodeveloper11.github.io/portfolio/assets/og-preview.png">
+  
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand">
+        <div class="brand-icon">FT</div>
+        <span>Fabio Torres</span>
+      </a>
+      
+      <ul class="nav-links">
+        <li><a href="#moat" data-i18n-es="Foso Defensivo" data-i18n-en="Competitive Moat">Foso Defensivo</a></li>
+        <li><a href="#projects" data-i18n-es="Proyectos" data-i18n-en="Projects">Proyectos</a></li>
+        <li><a href="#architecture" data-i18n-es="Arquitectura" data-i18n-en="Architecture">Arquitectura</a></li>
+        <li><a href="#skills" data-i18n-es="Habilidades" data-i18n-en="Skills">Habilidades</a></li>
+        <li><a href="#experience" data-i18n-es="Trayectoria" data-i18n-en="Experience">Trayectoria</a></li>
+        <li><a href="#contact" data-i18n-es="Contacto" data-i18n-en="Contact">Contacto</a></li>
+      </ul>
+      
+      <div class="nav-actions">
+        <button id="langToggle" class="control-btn lang-btn" title="Switch language">EN</button>
+        <button id="themeToggle" class="control-btn" title="Alternar tema visual">
+          <span id="themeIcon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+          </span>
+        </button>
+        <a href="assets/CV_Fabio_Torres.pdf" target="_blank" class="btn-primary" style="padding: 0.5rem 1rem; font-size: 0.85rem;" data-i18n-es="Descargar CV" data-i18n-en="Download CV">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          Descargar CV
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text-content">
+        <div class="status-badge">
+          <span class="status-dot"></span>
+          <span data-i18n-es="Disponible para Trabajo Remoto & Global ($2,500 – $10,000+ USD)" data-i18n-en="Open for Global & Remote Opportunities ($2.5k – $10k+ USD)">Disponible para Trabajo Remoto & Global ($2,500 – $10,000+ USD)</span>
+        </div>
+        
+        <h1 class="hero-title">
+          <span data-i18n-es="Ingeniero en" data-i18n-en="Engineer in">Ingeniero en</span>
+          <span class="gradient-text" data-i18n-es="Ciencia de Datos, Machine Learning" data-i18n-en="Data Science, Machine Learning">Ciencia de Datos, Machine Learning</span>
+          <span data-i18n-es="& Pipelines Cloud" data-i18n-en="& Cloud Data Pipelines">& Pipelines Cloud</span>
+        </h1>
+        
+        <p class="hero-subtitle" data-i18n-es="Arquitecto de sistemas de datos de alto rendimiento, modelos de Machine Learning en producción y aplicaciones interactivas con validación temporal estricta y telemetría de usuario." data-i18n-en="Architect of high-performance data systems, production ML models, and interactive applications with rigorous walk-forward validation and user telemetry.">
+          Arquitecto de sistemas de datos de alto rendimiento, modelos de Machine Learning en producción y aplicaciones interactivas con validación temporal estricta y telemetría de usuario.
+        </p>
+        
+        <div class="hero-narrative">
+          <strong data-i18n-es="Estrategia Del Diván al Dato:" data-i18n-en="From Behavioral Signals to Data Pipelines:">Estrategia Del Diván al Dato:</strong>
+          <span data-i18n-es=" Más de 10 años de liderazgo en psicología conductual y psicometría convertidos en un foso técnico inexpugnable para optimizar telemetría de producto, retención y evaluación ética de Inteligencia Artificial." data-i18n-en=" Over 10 years of behavioral psychology leadership and psychometrics converted into a defensible engineering moat for product telemetry, user retention, and ethical AI evaluation.">
+            Más de 10 años de liderazgo en psicología conductual y psicometría convertidos en un foso técnico inexpugnable para optimizar telemetría de producto, retención y evaluación ética de Inteligencia Artificial.
+          </span>
+        </div>
+        
+        <div class="hero-cta">
+          <a href="#projects" class="btn-primary" data-i18n-es="Explorar Proyectos" data-i18n-en="Explore Projects">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+            Explorar Proyectos
+          </a>
+          <a href="#contact" class="btn-secondary" data-i18n-es="Agendar Contacto" data-i18n-en="Get in Touch">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            Agendar Contacto
+          </a>
+          <a href="https://github.com/neurodeveloper11" target="_blank" class="btn-secondary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+      
+      <div class="hero-profile-card">
+        <div class="profile-avatar-wrapper">
+          <img src="assets/foto.jpeg" alt="Fabio Ignacio Torres Benítez" class="profile-avatar">
+        </div>
+        <h2 class="profile-name">Fabio Ignacio Torres</h2>
+        <p class="profile-tag" data-i18n-es="Ingeniero de Datos & IA • M.Sc. (c)" data-i18n-en="Data Engineer & AI • M.Sc. (c)">Ingeniero de Datos & IA • M.Sc. (c)</p>
+        
+        <div class="profile-links">
+          <a href="https://github.com/neurodeveloper11" target="_blank" class="profile-link-btn" title="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/fabio-torres-39364b258" target="_blank" class="profile-link-btn" title="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.6 1.6 0 1 0 0-3.2 1.6 1.6 0 0 0 0 3.2m1.4 9.74v-8.37H5.06v8.37h2.8z"/></svg>
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.t11.neurochess&hl=es_419" target="_blank" class="profile-link-btn" title="Google Play Store">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186c-.352-.338-.61-.83-.61-1.464V3.278c0-.634.258-1.126.61-1.464zm1.458-.888l11.45 6.44-2.725 2.634-8.725-9.074zm8.725 14.708l2.725 2.634-11.45 6.44 8.725-9.074zm1.408-1.366l3.418-1.922c.983-.553.983-1.453 0-2.006L15.2 10.268l-1.968 1.968 1.968 1.968z"/></svg>
+          </a>
+          <button onclick="copyToClipboard('psicologofabiotorres@gmail.com', 'Correo copiado / Email copied')" class="profile-link-btn" title="Copiar Correo">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Metrics Bar -->
+  <section class="metrics-section">
+    <div class="container metrics-grid">
+      <div class="metric-card">
+        <div class="metric-number" data-target="19600" data-suffix="+">19,600+</div>
+        <div class="metric-label" data-i18n-es="Líneas de Código TypeScript" data-i18n-en="Lines of TypeScript Code">Líneas de Código TypeScript</div>
+        <div class="metric-desc" data-i18n-es="Arquitectura Offline-First (SmartGym, 46 Tests Jest)" data-i18n-en="Offline-First Architecture (SmartGym, 46 Jest Tests)">Arquitectura Offline-First (SmartGym, 46 Tests Jest)</div>
+      </div>
+      
+      <div class="metric-card">
+        <div class="metric-number" data-target="37" data-suffix="+">37+</div>
+        <div class="metric-label" data-i18n-es="Minijuegos Cognitivos en Producción" data-i18n-en="Cognitive Games in Production">Minijuegos Cognitivos en Producción</div>
+        <div class="metric-desc" data-i18n-es="Publicado en Google Play (NeuroGym) con telemetría" data-i18n-en="Published on Google Play (NeuroGym) with telemetry">Publicado en Google Play (NeuroGym) con telemetría</div>
+      </div>
+      
+      <div class="metric-card">
+        <div class="metric-number" data-target="120" data-prefix="<" data-suffix="ms">&lt;120ms</div>
+        <div class="metric-label" data-i18n-es="Latencia de Inferencia ML" data-i18n-en="ML Inference Latency">Latencia de Inferencia ML</div>
+        <div class="metric-desc" data-i18n-es="FastAPI + Validación Walk-Forward (BTC Quant Lab)" data-i18n-en="FastAPI + Walk-Forward Validation (BTC Quant Lab)">FastAPI + Validación Walk-Forward (BTC Quant Lab)</div>
+      </div>
+      
+      <div class="metric-card">
+        <div class="metric-number" data-target="10" data-suffix="+ Años">10+ Años</div>
+        <div class="metric-label" data-i18n-es="Liderazgo Psicométrico & Datos" data-i18n-en="Psychometrics & Data Leadership">Liderazgo Psicométrico & Datos</div>
+        <div class="metric-desc" data-i18n-es="1,500+ colaboradores evaluados, -28% estrés ocupacional" data-i18n-en="1,500+ evaluated workers, -28% occupational stress">1,500+ colaboradores evaluados, -28% estrés ocupacional</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Moat Section ("Del Diván al Dato") -->
+  <section id="moat" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge" data-i18n-es="Ventaja Competitiva Única" data-i18n-en="Unique Competitive Moat">Ventaja Competitiva Única</span>
+        <h2 class="section-title" data-i18n-es="Estrategia Del Diván al Dato" data-i18n-en="From Behavioral Signals to Production Data">Estrategia Del Diván al Dato</h2>
+        <p class="section-subtitle" data-i18n-es="Por qué la convergencia entre Psicología Cognitiva e Ingeniería de Datos resuelve los problemas más críticos del software moderno." data-i18n-en="Why converging Cognitive Psychology with Data Engineering solves the most critical challenges of modern software.">Por qué la convergencia entre Psicología Cognitiva e Ingeniería de Datos resuelve los problemas más críticos del software moderno.</p>
+      </div>
+      
+      <div class="moat-container">
+        <div class="moat-grid">
+          <div class="moat-content">
+            <h3 data-i18n-es="Ingeniería con Validación Psicométrica" data-i18n-en="Engineering with Psychometric Validation">Ingeniería con Validación Psicométrica</h3>
+            <p data-i18n-es="En un ecosistema donde cualquier desarrollador puede entrenar un modelo genérico, mi foso defensivo reside en comprender a fondo la génesis del dato humano: la variabilidad conductual, los sesgos algorítmicos y la telemetría en tiempo real." data-i18n-en="In an ecosystem where anyone can fit a generic model, my defensible moat lies in deeply understanding human data genesis: behavioral variance, algorithmic bias, and real-time telemetry.">
+              En un ecosistema donde cualquier desarrollador puede entrenar un modelo genérico, mi foso defensivo reside en comprender a fondo la génesis del dato humano: la variabilidad conductual, los sesgos algorítmicos y la telemetría en tiempo real.
+            </p>
+            
+            <ul class="moat-list">
+              <li>
+                <span class="moat-bullet">✓</span>
+                <span data-i18n-es="<strong>Modelado de Telemetría Cognitiva:</strong> Análisis de tiempos de reacción (PVT), tasas de error y curvas de fatiga mental en milisegundos para Ajuste Dinámico de Dificultad (DDA)." data-i18n-en="<strong>Cognitive Telemetry Modeling:</strong> Psychomotor vigilance (PVT) reaction time analysis, error rates, and mental fatigue curves for Dynamic Difficulty Adjustment (DDA)."><strong>Modelado de Telemetría Cognitiva:</strong> Análisis de tiempos de reacción (PVT), tasas de error y curvas de fatiga mental en milisegundos para Ajuste Dinámico de Dificultad (DDA).</span>
+              </li>
+              <li>
+                <span class="moat-bullet">✓</span>
+                <span data-i18n-es="<strong>Auditoría Ética & Desesgo de IA:</strong> Aplicación de métricas de paridad demográfica y teoría psicométrica para evitar alucinaciones y discriminación en modelos de selección y evaluación." data-i18n-en="<strong>Ethical AI Auditing & Fairness:</strong> Demographic parity metrics and psychometric calibration to mitigate hallucinations and algorithmic bias in talent and assessment pipelines."><strong>Auditoría Ética & Desesgo de IA:</strong> Aplicación de métricas de paridad demográfica y teoría psicométrica para evitar alucinaciones y discriminación en modelos de selección y evaluación.</span>
+              </li>
+              <li>
+                <span class="moat-bullet">✓</span>
+                <span data-i18n-es="<strong>Toma de Decisiones de Alta Presión:</strong> Campeón Nacional de Ajedrez; optimización algorítmica, árboles de búsqueda y disciplina rigurosa para arquitecturas resilientes." data-i18n-en="<strong>High-Pressure Decision Making:</strong> National Chess Champion; algorithmic optimization, game-tree evaluation, and rigorous discipline for resilient architectures."><strong>Toma de Decisiones de Alta Presión:</strong> Campeón Nacional de Ajedrez; optimización algorítmica, árboles de búsqueda y disciplina rigurosa para arquitecturas resilientes.</span>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="moat-visual">
+            <div class="pipeline-step">
+              <span class="pipeline-title" data-i18n-es="1. Captura de Señales Conductuales" data-i18n-en="1. Behavioral Signal Capture">1. Captura de Señales Conductuales</span>
+              <span class="pipeline-tech">Raw Telemetry &bull; SQLite Offline</span>
+            </div>
+            <div class="pipeline-step">
+              <span class="pipeline-title" data-i18n-es="2. Pipeline ETL & Extracción de Métricas" data-i18n-en="2. ETL Pipeline & Feature Extraction">2. Pipeline ETL & Extracción de Métricas</span>
+              <span class="pipeline-tech">PySpark &bull; dbt &bull; Polars</span>
+            </div>
+            <div class="pipeline-step">
+              <span class="pipeline-title" data-i18n-es="3. Calibración Psicométrica & Normalización" data-i18n-en="3. Psychometric Calibration">3. Calibración Psicométrica & Normalización</span>
+              <span class="pipeline-tech">SciPy &bull; Z-Score &bull; Signal Detection</span>
+            </div>
+            <div class="pipeline-step">
+              <span class="pipeline-title" data-i18n-es="4. Inferencia Predictiva & Modelado ML" data-i18n-en="4. ML Predictive Modeling">4. Inferencia Predictiva & Modelado ML</span>
+              <span class="pipeline-tech">scikit-learn &bull; Walk-Forward</span>
+            </div>
+            <div class="pipeline-step">
+              <span class="pipeline-title" data-i18n-es="5. Despliegue API & Bucle de Retención" data-i18n-en="5. API Serving & Retention Loop">5. Despliegue API & Bucle de Retención</span>
+              <span class="pipeline-tech">FastAPI &bull; Docker &bull; Vercel</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Showcase Section -->
+  <section id="projects" class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge" data-i18n-es="Vitrina de Ingeniería" data-i18n-en="Engineering Showcase">Vitrina de Ingeniería</span>
+        <h2 class="section-title" data-i18n-es="Proyectos en Producción y Código Abierto" data-i18n-en="Production & Open-Source Projects">Proyectos en Producción y Código Abierto</h2>
+        <p class="section-subtitle" data-i18n-es="Arquitecturas verificadas, pipelines de datos en la nube y modelos de Machine Learning con código disponible." data-i18n-en="Verified architectures, cloud data pipelines, and machine learning models with open codebase.">Arquitecturas verificadas, pipelines de datos en la nube y modelos de Machine Learning con código disponible.</p>
+      </div>
+      
+      <div class="filter-tabs">
+        <button class="tab-btn active" data-filter="all" data-i18n-es="Todos los Proyectos" data-i18n-en="All Projects">Todos los Proyectos</button>
+        <button class="tab-btn" data-filter="data-science" data-i18n-es="Ciencia de Datos & ML" data-i18n-en="Data Science & ML">Ciencia de Datos & ML</button>
+        <button class="tab-btn" data-filter="data-pipelines" data-i18n-es="Pipelines Cloud & Backend" data-i18n-en="Cloud Pipelines & Backend">Pipelines Cloud & Backend</button>
+        <button class="tab-btn" data-filter="mobile-ai" data-i18n-es="Apps Móviles & Telemetría" data-i18n-en="Mobile Apps & Telemetry">Apps Móviles & Telemetría</button>
+      </div>
+      
+      <div class="projects-grid">
+        
+        <!-- Project 1: DopamineScan -->
+        <div class="project-card featured" data-category="data-science mobile-ai">
+          <div class="project-badge-bar">
+            <span class="type-badge" data-i18n-es="Biomarcadores & ML" data-i18n-en="Biomarkers & ML">Biomarcadores & ML</span>
+            <span class="live-badge"><span class="live-indicator"></span> Live Demo</span>
+          </div>
+          <h3 class="project-title">DopamineScan</h3>
+          <p class="project-description" data-i18n-es="Plataforma de telemetría neurocognitiva y biomarcadores digitales en tiempo real. Mide latencia psicomotora (PVT), tiempos de reacción milimétricos y funciones ejecutivas sin hardware clínico." data-i18n-en="Real-time neurocognitive telemetry and digital biomarkers platform. Quantifies psychomotor vigilance (PVT), millisecond reaction times, and executive functions without clinical hardware.">
+            Plataforma de telemetría neurocognitiva y biomarcadores digitales en tiempo real. Mide latencia psicomotora (PVT), tiempos de reacción milimétricos y funciones ejecutivas sin hardware clínico.
+          </p>
+          <div class="xyz-metric-box">
+            <strong data-i18n-es="Impacto XYZ:" data-i18n-en="XYZ Impact:">Impacto XYZ:</strong>
+            <span data-i18n-es=" Precisión de telemetría a ±2ms; reducción de fricción diagnóstica en un 80% mediante interfaz interactiva web y síntesis en Canvas 9:16." data-i18n-en=" Telemetry precision at ±2ms; reduced assessment friction by 80% with interactive web interface and 9:16 dynamic Canvas synthesis."> Precisión de telemetría a ±2ms; reducción de fricción diagnóstica en un 80% mediante interfaz interactiva web y síntesis en Canvas 9:16.</span>
+          </div>
+          <div class="tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">NumPy</span>
+            <span class="tech-tag">SciPy</span>
+            <span class="tech-tag">Web Audio API</span>
+            <span class="tech-tag">GitHub Pages</span>
+          </div>
+          <div class="project-links">
+            <a href="https://neurodeveloper11.github.io/dopaminescan/" target="_blank" class="card-link card-link-primary" data-i18n-es="Probar Demo en Vivo" data-i18n-en="Try Live Demo">Probar Demo</a>
+            <a href="https://github.com/neurodeveloper11/dopaminescan" target="_blank" class="card-link card-link-secondary">GitHub Repo</a>
+          </div>
+        </div>
+        
+        <!-- Project 2: Behavioral Health Pipeline -->
+        <div class="project-card featured" data-category="data-pipelines data-science">
+          <div class="project-badge-bar">
+            <span class="type-badge" data-i18n-es="Data Engineering Cloud" data-i18n-en="Cloud Data Engineering">Data Engineering Cloud</span>
+            <span class="live-badge"><span class="live-indicator"></span> Producción</span>
+          </div>
+          <h3 class="project-title">Behavioral Health Pipeline</h3>
+          <p class="project-description" data-i18n-es="Canalización de datos ETL/ELT distribuida y compatible con estándares de salud para telemetría conductual. Limpieza, modelado dimensional, anonimización criptográfica y almacenamiento lakehouse." data-i18n-en="Distributed ETL/ELT data pipeline for behavioral healthcare telemetry. Automated cleaning, dimensional modeling, cryptographic hashing, and lakehouse storage.">
+            Canalización de datos ETL/ELT distribuida y compatible con estándares de salud para telemetría conductual. Limpieza, modelado dimensional, anonimización criptográfica y almacenamiento lakehouse.
+          </p>
+          <div class="xyz-metric-box">
+            <strong data-i18n-es="Impacto XYZ:" data-i18n-en="XYZ Impact:">Impacto XYZ:</strong>
+            <span data-i18n-es=" Procesamiento de 500,000+ eventos de salud en <45s con PySpark; auditoría estricta y esquemas validados con dbt." data-i18n-en=" Processed 500k+ healthcare events in <45s with PySpark; strict schema validation and audit trail using dbt."> Procesamiento de 500,000+ eventos de salud en &lt;45s con PySpark; auditoría estricta y esquemas validados con dbt.</span>
+          </div>
+          <div class="tech-tags">
+            <span class="tech-tag">PySpark</span>
+            <span class="tech-tag">PostgreSQL</span>
+            <span class="tech-tag">dbt</span>
+            <span class="tech-tag">Docker</span>
+            <span class="tech-tag">BigQuery</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/neurodeveloper11/behavioral-health-pipeline" target="_blank" class="card-link card-link-primary">GitHub Repo</a>
+          </div>
+        </div>
+        
+        <!-- Project 3: BTC Quant Lab -->
+        <div class="project-card" data-category="data-science data-pipelines">
+          <div class="project-badge-bar">
+            <span class="type-badge" data-i18n-es="ML & Series Temporales" data-i18n-en="ML & Time Series">ML & Series Temporales</span>
+            <span class="live-badge"><span class="live-indicator"></span> &lt;120ms API</span>
+          </div>
+          <h3 class="project-title">BTC Quant Lab</h3>
+          <p class="project-description" data-i18n-es="Laboratorio cuantitativo para análisis y predicción de series de tiempo financieras. 25+ características técnicas vectorizadas y modelos predictivos con scikit-learn." data-i18n-en="Quantitative lab for financial time-series forecasting. 25+ vectorized technical features and ML models trained via walk-forward validation without lookahead bias.">
+            Laboratorio cuantitativo para análisis y predicción de series de tiempo financieras. 25+ características técnicas vectorizadas y modelos predictivos con scikit-learn.
+          </p>
+          <div class="xyz-metric-box">
+            <strong data-i18n-es="Impacto XYZ:" data-i18n-en="XYZ Impact:">Impacto XYZ:</strong>
+            <span data-i18n-es=" Latencia de inferencia API REST de 118ms en FastAPI; eliminación total de sesgo de anticipación mediante validación walk-forward." data-i18n-en=" 118ms REST API latency on FastAPI; zero lookahead bias achieved through rigorous walk-forward time-series validation."> Latencia de inferencia API REST de 118ms en FastAPI; eliminación total de sesgo de anticipación mediante validación walk-forward.</span>
+          </div>
+          <div class="tech-tags">
+            <span class="tech-tag">Python 3.11</span>
+            <span class="tech-tag">pandas</span>
+            <span class="tech-tag">scikit-learn</span>
+            <span class="tech-tag">FastAPI</span>
+            <span class="tech-tag">Pydantic</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/neurodeveloper11" target="_blank" class="card-link card-link-secondary">GitHub Code</a>
+          </div>
+        </div>
+        
+        <!-- Project 4: Cognitive Agent Evaluator -->
+        <div class="project-card" data-category="data-science">
+          <div class="project-badge-bar">
+            <span class="type-badge" data-i18n-es="Evaluación de IA & LLMs" data-i18n-en="AI & LLM Evaluation">Evaluación de IA & LLMs</span>
+            <span class="live-badge"><span class="live-indicator"></span> Benchmark</span>
+          </div>
+          <h3 class="project-title">Cognitive Agent Evaluator</h3>
+          <p class="project-description" data-i18n-es="Framework de evaluación y calibración conductual para Modelos de Lenguaje Grande (LLMs). Somete a agentes de IA a pruebas psicométricas estandarizadas para medir sesgo, coherencia y límites de alucinación." data-i18n-en="Evaluation framework for Large Language Models (LLMs). Subjects AI agents to standardized psychometric batteries to measure bias, reasoning drift, and hallucinations.">
+            Framework de evaluación y calibración conductual para Modelos de Lenguaje Grande (LLMs). Somete a agentes de IA a pruebas psicométricas estandarizadas para medir sesgo, coherencia y límites de alucinación.
+          </p>
+          <div class="xyz-metric-box">
+            <strong data-i18n-es="Impacto XYZ:" data-i18n-en="XYZ Impact:">Impacto XYZ:</strong>
+            <span data-i18n-es=" Suite automatizada con 100+ escenarios de estrés cognitivo; reduce en un 60% el tiempo de auditoría cualitativa de prompts en producción." data-i18n-en=" 100+ automated stress test scenarios; cuts qualitative prompt audit time by 60% in production."> Suite automatizada con 100+ escenarios de estrés cognitivo; reduce en un 60% el tiempo de auditoría cualitativa de prompts en producción.</span>
+          </div>
+          <div class="tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">LLM Orchestration</span>
+            <span class="tech-tag">Psychometrics</span>
+            <span class="tech-tag">PyTest</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/neurodeveloper11/cognitive-agent-evaluator" target="_blank" class="card-link card-link-primary">GitHub Repo</a>
+          </div>
+        </div>
+
+        <!-- Project 5: FairTalent Engine -->
+        <div class="project-card" data-category="data-science">
+          <div class="project-badge-bar">
+            <span class="type-badge" data-i18n-es="Equidad Algorítmica" data-i18n-en="Algorithmic Fairness">Equidad Algorítmica</span>
+            <span class="live-badge"><span class="live-indicator"></span> Auditing Engine</span>
+          </div>
+          <h3 class="project-title">FairTalent Engine</h3>
+          <p class="project-description" data-i18n-es="Motor de auditoría de equidad demográfica y desesgo para algoritmos de contratación y screening de talento. Calcula índices de Impacto Dispar y Paridad Predictiva en datasets de reclutamiento." data-i18n-en="Demographic fairness and de-biasing audit engine for AI hiring systems. Calculates Disparate Impact and Predictive Parity across HR data pipelines.">
+            Motor de auditoría de equidad demográfica y desesgo para algoritmos de contratación y screening de talento. Calcula índices de Impacto Dispar y Paridad Predictiva en datasets de reclutamiento.
+          </p>
+          <div class="xyz-metric-box">
+            <strong data-i18n-es="Impacto XYZ:" data-i18n-en="XYZ Impact:">Impacto XYZ:</strong>
+            <span data-i18n-es=" Mitiga penalizaciones de selección sesgada garantizando la regla del 80% (Four-Fifths Rule) exigida por marcos regulatorios internacionales." data-i18n-en=" Mitigates biased screening penalties by enforcing the Four-Fifths Rule required by international compliance frameworks."> Mitiga penalizaciones de selección sesgada garantizando la regla del 80% (Four-Fifths Rule) exigida por marcos regulatorios internacionales.</span>
+          </div>
+          <div class="tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Statistical Parity</span>
+            <span class="tech-tag">Fairlearn</span>
+            <span class="tech-tag">FastAPI</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/neurodeveloper11/fairtalent-engine" target="_blank" class="card-link card-link-primary">GitHub Repo</a>
+          </div>
+        </div>
+        
+        <!-- Project 6: NeuroGym (Google Play) -->
+        <div class="project-card" data-category="mobile-ai data-pipelines">
+          <div class="project-badge-bar">
+            <span class="type-badge" data-i18n-es="App Móvil en Producción" data-i18n-en="Production Mobile App">App Móvil en Producción</span>
+            <span class="live-badge"><span class="live-indicator"></span> Google Play</span>
+          </div>
+          <h3 class="project-title">NeuroGym Live</h3>
+          <p class="project-description" data-i18n-es="Plataforma interactiva de estimulación neurocognitiva publicada oficialmente en Google Play. 37+ minijuegos, telemetría offline-first con SQLite, sincronización a Firestore y asistente de IA híbrido." data-i18n-en="Interactive brain training platform published on Google Play Store. 37+ mini-games, offline-first SQLite telemetry, Firestore sync, and hybrid local/cloud AI assistant.">
+            Plataforma interactiva de estimulación neurocognitiva publicada oficialmente en Google Play. 37+ minijuegos, telemetría offline-first con SQLite, sincronización a Firestore y asistente de IA híbrido.
+          </p>
+          <div class="xyz-metric-box">
+            <strong data-i18n-es="Impacto XYZ:" data-i18n-en="XYZ Impact:">Impacto XYZ:</strong>
+            <span data-i18n-es=" Algoritmo DDA en tiempo real aumentó la retención en un 35%; disponibilidad del 99.8% en sesiones offline sin fallos de red." data-i18n-en=" Real-time DDA algorithm increased retention by 35%; 99.8% offline session availability with zero connection crashes."> Algoritmo DDA en tiempo real aumentó la retención en un 35%; disponibilidad del 99.8% en sesiones offline sin fallos de red.</span>
+          </div>
+          <div class="tech-tags">
+            <span class="tech-tag">React Native</span>
+            <span class="tech-tag">SQLite</span>
+            <span class="tech-tag">Firebase</span>
+            <span class="tech-tag">Vercel Serverless</span>
+            <span class="tech-tag">Google Play</span>
+          </div>
+          <div class="project-links">
+            <a href="https://play.google.com/store/apps/details?id=com.t11.neurochess&hl=es_419" target="_blank" class="card-link card-link-primary" data-i18n-es="Ver en Google Play" data-i18n-en="View on Google Play">Ver en Google Play</a>
+          </div>
+        </div>
+
+        <!-- Project 7: SmartGym -->
+        <div class="project-card" data-category="mobile-ai">
+          <div class="project-badge-bar">
+            <span class="type-badge" data-i18n-es="Arquitectura Móvil" data-i18n-en="Mobile Architecture">Arquitectura Móvil</span>
+            <span class="live-badge"><span class="live-indicator"></span> 46 Tests Jest</span>
+          </div>
+          <h3 class="project-title">SmartGym</h3>
+          <p class="project-description" data-i18n-es="Motor móvil de entrenamiento de fuerza y sobrecarga progresiva 100% offline-first. Base de código modular de ~19,600 líneas de TypeScript, Clean Architecture y algoritmos de periodización de 12 semanas." data-i18n-en="100% offline-first strength training and periodization engine. Modular codebase of ~19,600 TypeScript lines, Clean Architecture, and 12-week progression algorithms.">
+            Motor móvil de entrenamiento de fuerza y sobrecarga progresiva 100% offline-first. Base de código modular de ~19,600 líneas de TypeScript, Clean Architecture y algoritmos de periodización de 12 semanas.
+          </p>
+          <div class="xyz-metric-box">
+            <strong data-i18n-es="Impacto XYZ:" data-i18n-en="XYZ Impact:">Impacto XYZ:</strong>
+            <span data-i18n-es=" 46 pruebas unitarias automatizadas con Jest validando cálculos de 1RM estimado y periodización sin dependencias externas." data-i18n-en=" 46 automated unit tests with Jest validating estimated 1RM and volume periodization with zero external dependencies."> 46 pruebas unitarias automatizadas con Jest validando cálculos de 1RM estimado y periodización sin dependencias externas.</span>
+          </div>
+          <div class="tech-tags">
+            <span class="tech-tag">React Native</span>
+            <span class="tech-tag">TypeScript (~19.6k LoC)</span>
+            <span class="tech-tag">Jest Testing</span>
+            <span class="tech-tag">AsyncStorage</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/neurodeveloper11" target="_blank" class="card-link card-link-secondary">GitHub Code</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Architecture Section -->
+  <section id="architecture" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge" data-i18n-es="Arquitectura de Sistemas" data-i18n-en="System Architecture">Arquitectura de Sistemas</span>
+        <h2 class="section-title" data-i18n-es="Ciclo Completo de Ingeniería de Datos & IA" data-i18n-en="End-to-End Data & AI Pipeline Lifecycle">Ciclo Completo de Ingeniería de Datos & IA</h2>
+        <p class="section-subtitle" data-i18n-es="Cómo diseño, ejecuto y mantengo sistemas en producción: desde la captura de telemetría hasta el servicio serverless de inferencia." data-i18n-en="How I architect, deploy, and maintain production systems: from telemetry ingestion to serverless inference.">Cómo diseño, ejecuto y mantengo sistemas en producción: desde la captura de telemetría hasta el servicio serverless de inferencia.</p>
+      </div>
+      
+      <div class="arch-container">
+        <div class="arch-flow-grid">
+          <div class="flow-node">
+            <div class="flow-number">1</div>
+            <h4 data-i18n-es="Ingesta de Datos" data-i18n-en="Data Ingestion">Ingesta de Datos</h4>
+            <p data-i18n-es="Eventos crudos en tiempo real, SQLite local, validación de esquemas Pydantic." data-i18n-en="Real-time raw events, local SQLite, Pydantic schema contracts.">Eventos crudos en tiempo real, SQLite local, validación de esquemas Pydantic.</p>
+          </div>
+          
+          <div class="flow-node">
+            <div class="flow-number">2</div>
+            <h4 data-i18n-es="Pipelines ETL / ELT" data-i18n-en="ETL / ELT Pipelines">Pipelines ETL / ELT</h4>
+            <p data-i18n-es="PySpark distribuido, dbt para transformaciones dimensionales y PostgreSQL/DuckDB." data-i18n-en="Distributed PySpark, dbt dimensional modeling, PostgreSQL & DuckDB.">PySpark distribuido, dbt para transformaciones dimensionales y PostgreSQL/DuckDB.</p>
+          </div>
+          
+          <div class="flow-node">
+            <div class="flow-number">3</div>
+            <h4 data-i18n-es="Validación ML" data-i18n-en="ML Validation">Validación ML</h4>
+            <p data-i18n-es="Walk-Forward temporal sin sesgo de anticipación, métricas ROC-AUC / RMSE." data-i18n-en="Temporal Walk-Forward (zero lookahead bias), ROC-AUC / RMSE metrics.">Walk-Forward temporal sin sesgo de anticipación, métricas ROC-AUC / RMSE.</p>
+          </div>
+          
+          <div class="flow-node">
+            <div class="flow-number">4</div>
+            <h4 data-i18n-es="Serving & APIs" data-i18n-en="Serving & APIs">Serving & APIs</h4>
+            <p data-i18n-es="FastAPI asíncrono con latencia &lt;120ms, contenedores Docker y serverless en Vercel." data-i18n-en="Async FastAPI with &lt;120ms latency, Docker containers & Vercel serverless.">FastAPI asíncrono con latencia &lt;120ms, contenedores Docker y serverless en Vercel.</p>
+          </div>
+          
+          <div class="flow-node">
+            <div class="flow-number">5</div>
+            <h4 data-i18n-es="Foso de Retención" data-i18n-en="Retention Moat">Foso de Retención</h4>
+            <p data-i18n-es="Telemetría de interacción, ajuste dinámico de dificultad (DDA) y auditoría ética." data-i18n-en="Feedback telemetry, dynamic difficulty loops (DDA), and algorithmic de-biasing.">Telemetría de interacción, ajuste dinámico de dificultad (DDA) y auditoría ética.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills & Technologies Section -->
+  <section id="skills" class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge" data-i18n-es="Dominio Técnico" data-i18n-en="Technical Domain">Dominio Técnico</span>
+        <h2 class="section-title" data-i18n-es="Habilidades & Stack Tecnológico" data-i18n-en="Skills & Technology Stack">Habilidades & Stack Tecnológico</h2>
+        <p class="section-subtitle" data-i18n-es="Competencias certificadas por IBM y puestas en práctica en sistemas en producción." data-i18n-en="Skills certified by IBM and battle-tested across production systems.">Competencias certificadas por IBM y puestas en práctica en sistemas en producción.</p>
+      </div>
+      
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+            <span data-i18n-es="Ingeniería de Datos" data-i18n-en="Data Engineering">Ingeniería de Datos</span>
+          </h3>
+          <div class="skill-items">
+            <div class="skill-item"><span>Python 3.11+ (Polars, pandas, NumPy)</span> <span class="skill-level">Avanzado</span></div>
+            <div class="skill-item"><span>SQL (PostgreSQL, BigQuery, SQLite)</span> <span class="skill-level">Avanzado</span></div>
+            <div class="skill-item"><span>Pipelines ETL/ELT & PySpark</span> <span class="skill-level">Intermedio-Alto</span></div>
+            <div class="skill-item"><span>Modelado Dimensional & dbt / DuckDB</span> <span class="skill-level">Intermedio-Alto</span></div>
+            <div class="skill-item"><span>Arquitecturas Offline-First</span> <span class="skill-level">Especialista</span></div>
+          </div>
+        </div>
+        
+        <div class="skill-category">
+          <h3>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20V10"></path><path d="M12 20V4"></path><path d="M6 20v-6"></path></svg>
+            <span data-i18n-es="Ciencia de Datos & ML" data-i18n-en="Data Science & ML">Ciencia de Datos & ML</span>
+          </h3>
+          <div class="skill-items">
+            <div class="skill-item"><span>scikit-learn (Clasificación & Regresión)</span> <span class="skill-level">Avanzado</span></div>
+            <div class="skill-item"><span>Series Temporales (Walk-Forward)</span> <span class="skill-level">Avanzado</span></div>
+            <div class="skill-item"><span>Orquestación de LLMs & Prompt Engineering</span> <span class="skill-level">Avanzado</span></div>
+            <div class="skill-item"><span>Estadística Matemática & SciPy</span> <span class="skill-level">Avanzado</span></div>
+            <div class="skill-item"><span>Visualización de Datos (Power BI, Seaborn)</span> <span class="skill-level">Avanzado</span></div>
+          </div>
+        </div>
+        
+        <div class="skill-category">
+          <h3>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+            <span data-i18n-es="Cloud & Backend" data-i18n-en="Cloud & Backend">Cloud & Backend</span>
+          </h3>
+          <div class="skill-items">
+            <div class="skill-item"><span>FastAPI (Async, Pydantic, Swagger)</span> <span class="skill-level">Avanzado</span></div>
+            <div class="skill-item"><span>Docker & Containerización</span> <span class="skill-level">Intermedio-Alto</span></div>
+            <div class="skill-item"><span>Firebase & GCP Core</span> <span class="skill-level">Avanzado</span></div>
+            <div class="skill-item"><span>Vercel Serverless Proxies</span> <span class="skill-level">Avanzado</span></div>
+            <div class="skill-item"><span>Testing Automatizado (pytest, jest)</span> <span class="skill-level">Avanzado</span></div>
+          </div>
+        </div>
+        
+        <div class="skill-category">
+          <h3>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10H12V2z"></path><path d="M12 2a10 10 0 0 1 10 10"></path></svg>
+            <span data-i18n-es="Foso Conductual & Liderazgo" data-i18n-en="Behavioral Moat & Leadership">Foso Conductual & Liderazgo</span>
+          </h3>
+          <div class="skill-items">
+            <div class="skill-item"><span>Psicometría & Validez de Constructo</span> <span class="skill-level">Maestría</span></div>
+            <div class="skill-item"><span>Telemetría de Tiempos de Reacción (RT)</span> <span class="skill-level">Especialista</span></div>
+            <div class="skill-item"><span>Batería de Riesgo Psicosocial (Res. 2764)</span> <span class="skill-level">10+ Años</span></div>
+            <div class="skill-item"><span>Estrategia de Decisión (Campeón Ajedrez)</span> <span class="skill-level">Nacional</span></div>
+            <div class="skill-item"><span>Inglés Técnico Profesional (B2/C1)</span> <span class="skill-level">Fluido</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience & Education Timeline -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge" data-i18n-es="Trayectoria" data-i18n-en="Career Path">Trayectoria</span>
+        <h2 class="section-title" data-i18n-es="Experiencia Profesional & Formación" data-i18n-en="Professional Experience & Education">Experiencia Profesional & Formación</h2>
+        <p class="section-subtitle" data-i18n-es="Una trayectoria consolidada en analítica de datos, psicología organizacional y sistemas de software." data-i18n-en="A solid track record in data analytics, organizational psychology, and software systems.">Una trayectoria consolidada en analítica de datos, psicología organizacional y sistemas de software.</p>
+      </div>
+      
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <span class="timeline-role" data-i18n-es="Psicólogo Organizacional Líder & Analista de Datos" data-i18n-en="Lead Organizational Psychologist & Data Analyst">Psicólogo Organizacional Líder & Analista de Datos</span>
+              <span class="timeline-period">2015 – Presente</span>
+            </div>
+            <div class="timeline-company">Empresa Saludo (Fundación de Salud Ocupacional de Occidente Ltda) | Buenaventura, Colombia</div>
+            <ul>
+              <li data-i18n-es="Procesamiento y análisis estadístico de baterías de riesgo psicosocial para terminales portuarias internacionales (Compas Cascajal y Compas Agua Dulce)." data-i18n-en="Statistical processing and analytics of psychosocial risk batteries for international port terminals (Compas Cascajal and Compas Agua Dulce).">Procesamiento y análisis estadístico de baterías de riesgo psicosocial para terminales portuarias internacionales (Compas Cascajal y Compas Agua Dulce).</li>
+              <li data-i18n-es="Transformación de evaluaciones psicométricas en datasets estructurados para más de 1,500 colaboradores, reduciendo el estrés ocupacional en un 28% con intervenciones cuantitativas." data-i18n-en="Transformed psychometric assessments into structured datasets for 1,500+ workers, reducing occupational stress by 28% through quantitative interventions.">Transformación de evaluaciones psicométricas en datasets estructurados para más de 1,500 colaboradores, reduciendo el estrés ocupacional en un 28% con intervenciones cuantitativas.</li>
+              <li data-i18n-es="Auditoría de selección especializada y clima laboral con métricas objetivas." data-i18n-en="Specialized talent screening and workplace climate audits with objective metrics.">Auditoría de selección especializada y clima laboral con métricas objetivas.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <span class="timeline-role" data-i18n-es="Profesional Psicosocial & Analista de Campo" data-i18n-en="Psychosocial Professional & Field Data Analyst">Profesional Psicosocial & Analista de Campo</span>
+              <span class="timeline-period">2024 – 2025</span>
+            </div>
+            <div class="timeline-company">Unidad para las Víctimas (Gobierno Nacional de Colombia)</div>
+            <ul>
+              <li data-i18n-es="Sistematización y análisis de datos de campo sobre recuperación emocional y resiliencia en comunidades afectadas por el conflicto." data-i18n-en="Systematization and analytics of field data regarding emotional recovery and community resilience.">Sistematización y análisis de datos de campo sobre recuperación emocional y resiliencia en comunidades afectadas por el conflicto.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <span class="timeline-role" data-i18n-es="Director General & Líder Comunitario" data-i18n-en="Managing Director & Community Leader">Director General & Líder Comunitario</span>
+              <span class="timeline-period">2018 – Presente</span>
+            </div>
+            <div class="timeline-company">Escuela de Ajedrez para la Vida | Buenaventura, Colombia</div>
+            <ul>
+              <li data-i18n-es="Liderazgo de plataformas formativas y gestión de comunidades digitales de más de 7,000 miembros activos; dirección del Torneo Internacional de Ajedrez 2021." data-i18n-en="Managed educational chess platforms and online communities of 7,000+ active members; directed the 2021 International Chess Tournament.">Liderazgo de plataformas formativas y gestión de comunidades digitales de más de 7,000 miembros activos; dirección del Torneo Internacional de Ajedrez 2021.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <span class="timeline-role" data-i18n-es="Maestría en Ingeniería de Datos e Infraestructura Cloud (M.Sc.)" data-i18n-en="M.Sc. in Data Engineering & Cloud Infrastructure">Maestría en Ingeniería de Datos e Infraestructura Cloud (M.Sc.)</span>
+              <span class="timeline-period">2026 – En curso</span>
+            </div>
+            <div class="timeline-company">Universidad Tecnológica Latinoamericana (UTEL)</div>
+            <p style="color: var(--text-secondary); font-size: 0.92rem;" data-i18n-es="Especialización avanzada en data pipelines, computación distribuida, arquitectura serverless y gobierno de datos masivos en la nube." data-i18n-en="Advanced specialization in data pipelines, distributed computing, serverless architectures, and cloud data governance.">
+              Especialización avanzada en data pipelines, computación distribuida, arquitectura serverless y gobierno de datos masivos en la nube.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <span class="timeline-role" data-i18n-es="Certificado Profesional en Ciencia de Datos (9 Especializaciones)" data-i18n-en="Professional Certificate in Data Science (9 Specializations)">Certificado Profesional en Ciencia de Datos (9 Especializaciones)</span>
+              <span class="timeline-period">IBM (2025 – 2026)</span>
+            </div>
+            <div class="timeline-company">IBM Skills Network</div>
+            <p style="color: var(--text-secondary); font-size: 0.92rem;">
+              Machine Learning with Python &bull; Data Analysis &bull; Data Visualization &bull; Databases and SQL &bull; Python for Data Science, AI & Development &bull; Methodology.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <span class="timeline-role" data-i18n-es="Licenciatura en Psicología (Pregrado Profesional de 5 Años)" data-i18n-en="B.Sc. in Psychology (5-Year Professional Degree)">Licenciatura en Psicología (Pregrado Profesional de 5 Años)</span>
+              <span class="timeline-period">Graduado 2016</span>
+            </div>
+            <div class="timeline-company">Universidad de San Buenaventura, Cali, Colombia</div>
+            <p style="color: var(--text-secondary); font-size: 0.92rem;" data-i18n-es="Tesis de grado: El ajedrez como estrategia lúdica para el desarrollo de la atención y la memoria operativa." data-i18n-en="Thesis: Chess as a playful strategy for developing sustained attention and working memory.">
+              Tesis de grado: El ajedrez como estrategia lúdica para el desarrollo de la atención y la memoria operativa.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Call to Action -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="cta-section">
+        <h2 data-i18n-es="¿Listo para Construir Sistemas de Datos de Alto Impacto?" data-i18n-en="Ready to Build High-Impact Data Systems?">¿Listo para Construir Sistemas de Datos de Alto Impacto?</h2>
+        <p data-i18n-es="Disponible para roles remotos e híbridos como Ingeniero en Ciencia de Datos, Analytics Engineer o Lead AI Engineer a nivel global." data-i18n-en="Available for remote and hybrid roles as Data Science Engineer, Analytics Engineer, or Lead AI Engineer globally.">
+          Disponible para roles remotos e híbridos como Ingeniero en Ciencia de Datos, Analytics Engineer o Lead AI Engineer a nivel global.
+        </p>
+        
+        <div class="cta-buttons">
+          <a href="mailto:psicologofabiotorres@gmail.com" class="btn-primary" data-i18n-es="Enviar Correo Electrónico" data-i18n-en="Send an Email">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            psicologofabiotorres@gmail.com
+          </a>
+          <a href="https://wa.me/573216284300" target="_blank" class="btn-secondary" style="color: #10b981; border-color: #10b981;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.861.173.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.419-.101.824z"/></svg>
+            WhatsApp (+57 321 628 4300)
+          </a>
+          <a href="https://www.linkedin.com/in/fabio-torres-39364b258" target="_blank" class="btn-secondary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.6 1.6 0 1 0 0-3.2 1.6 1.6 0 0 0 0 3.2m1.4 9.74v-8.37H5.06v8.37h2.8z"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div>
+        <p>&copy; 2026 Fabio Ignacio Torres Benítez. Todos los derechos reservados.</p>
+        <p style="font-size: 0.8rem; margin-top: 0.25rem;">Torres Career Operations &bull; Standard FAANG / Harvard</p>
+      </div>
+      <div>
+        <a href="#hero" style="color: var(--accent-primary); font-weight: 600;" data-i18n-es="Volver arriba &uarr;" data-i18n-en="Back to top &uarr;">Volver arriba &uarr;</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
