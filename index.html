@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,22 +38,27 @@
       </a>
       
       <ul class="nav-links">
-        <li><a href="#moat" data-i18n-es="Foso Defensivo" data-i18n-en="Competitive Moat">Foso Defensivo</a></li>
-        <li><a href="#projects" data-i18n-es="Proyectos" data-i18n-en="Projects">Proyectos</a></li>
-        <li><a href="#architecture" data-i18n-es="Arquitectura" data-i18n-en="Architecture">Arquitectura</a></li>
-        <li><a href="#skills" data-i18n-es="Habilidades" data-i18n-en="Skills">Habilidades</a></li>
-        <li><a href="#experience" data-i18n-es="Trayectoria" data-i18n-en="Experience">Trayectoria</a></li>
-        <li><a href="#contact" data-i18n-es="Contacto" data-i18n-en="Contact">Contacto</a></li>
+        <li><a href="#moat" data-i18n-en="Competitive Moat" data-i18n-es="Foso Defensivo" data-i18n-zh="核心壁垒">Competitive Moat</a></li>
+        <li><a href="#projects" data-i18n-en="Projects" data-i18n-es="Proyectos" data-i18n-zh="精选项目">Projects</a></li>
+        <li><a href="#architecture" data-i18n-en="Architecture" data-i18n-es="Arquitectura" data-i18n-zh="系统架构">Architecture</a></li>
+        <li><a href="#skills" data-i18n-en="Skills" data-i18n-es="Habilidades" data-i18n-zh="技术技能">Skills</a></li>
+        <li><a href="#experience" data-i18n-en="Experience" data-i18n-es="Trayectoria" data-i18n-zh="职业履历">Experience</a></li>
+        <li><a href="#contact" data-i18n-en="Contact" data-i18n-es="Contacto" data-i18n-zh="联系方式">Contact</a></li>
       </ul>
       
       <div class="nav-actions">
-        <button id="langToggle" class="control-btn lang-btn" title="Switch language">EN</button>
+        <!-- Tri-Lingual Switcher (EN default, ES, 中文) -->
+        <div class="lang-switch-group">
+          <button class="lang-pill active" data-lang="en">EN</button>
+          <button class="lang-pill" data-lang="es">ES</button>
+          <button class="lang-pill" data-lang="zh">中文</button>
+        </div>
         <button id="themeToggle" class="control-btn" title="Alternar tema visual">
           <span id="themeIcon">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
           </span>
         </button>
-        <a href="assets/CV_Fabio_Torres.pdf" target="_blank" class="btn-primary" style="padding: 0.5rem 1rem; font-size: 0.85rem;" data-i18n-es="Descargar CV" data-i18n-en="Download CV">
+        <a href="assets/CV_Fabio_Torres.pdf" target="_blank" class="btn-primary" style="padding: 0.5rem 1rem; font-size: 0.85rem;" data-i18n-en="Download CV" data-i18n-es="Descargar CV" data-i18n-zh="下载简历">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
           Descargar CV
         </a>
@@ -67,34 +72,34 @@
       <div class="hero-text-content">
         <div class="status-badge">
           <span class="status-dot"></span>
-          <span data-i18n-es="Disponible para Trabajo Remoto & Global ($2,500 – $10,000+ USD)" data-i18n-en="Open for Global & Remote Opportunities ($2.5k – $10k+ USD)">Disponible para Trabajo Remoto & Global ($2,500 – $10,000+ USD)</span>
+          <span data-i18n-en="● Open to Worldwide Remote Roles & Strategic Contracts" data-i18n-es="● Disponible para Roles Remotos Globales & Proyectos de Alto Impacto" data-i18n-zh="● 可承接全球远程全职职位及战略性高价值项目">● Open to Worldwide Remote Roles & Strategic Contracts</span>
         </div>
         
         <h1 class="hero-title">
-          <span data-i18n-es="Ingeniero en" data-i18n-en="Engineer in">Ingeniero en</span>
-          <span class="gradient-text" data-i18n-es="Ciencia de Datos, Machine Learning" data-i18n-en="Data Science, Machine Learning">Ciencia de Datos, Machine Learning</span>
-          <span data-i18n-es="& Pipelines Cloud" data-i18n-en="& Cloud Data Pipelines">& Pipelines Cloud</span>
+          <span data-i18n-en="Engineer in" data-i18n-es="Ingeniero en" data-i18n-zh="工程师：">Engineer in</span>
+          <span class="gradient-text" data-i18n-en="Data Science, Machine Learning" data-i18n-es="Ciencia de Datos, Machine Learning" data-i18n-zh="数据科学、机器学习">Data Science, Machine Learning</span>
+          <span data-i18n-en="& Cloud Data Pipelines" data-i18n-es="& Pipelines Cloud" data-i18n-zh="与云端数据管道">& Cloud Data Pipelines</span>
         </h1>
         
-        <p class="hero-subtitle" data-i18n-es="Arquitecto de sistemas de datos de alto rendimiento, modelos de Machine Learning en producción y aplicaciones interactivas con validación temporal estricta y telemetría de usuario." data-i18n-en="Architect of high-performance data systems, production ML models, and interactive applications with rigorous walk-forward validation and user telemetry.">
+        <p class="hero-subtitle" data-i18n-en="Architect of high-performance data systems, production ML models, and interactive applications with rigorous walk-forward validation and user telemetry." data-i18n-es="Arquitecto de sistemas de datos de alto rendimiento, modelos de Machine Learning en producción y aplicaciones interactivas con validación temporal estricta y telemetría de usuario." data-i18n-zh="高性能数据系统、生产级机器学习模型与高可靠交互式系统架构师，精通严格时间序列走步验证与认知行为遥测。">
           Arquitecto de sistemas de datos de alto rendimiento, modelos de Machine Learning en producción y aplicaciones interactivas con validación temporal estricta y telemetría de usuario.
         </p>
         
         <div class="hero-narrative">
-          <strong data-i18n-es="Estrategia Del Diván al Dato:" data-i18n-en="From Behavioral Signals to Data Pipelines:">Estrategia Del Diván al Dato:</strong>
-          <span data-i18n-es=" Más de 10 años de liderazgo en psicología conductual y psicometría convertidos en un foso técnico inexpugnable para optimizar telemetría de producto, retención y evaluación ética de Inteligencia Artificial." data-i18n-en=" Over 10 years of behavioral psychology leadership and psychometrics converted into a defensible engineering moat for product telemetry, user retention, and ethical AI evaluation.">
-            Más de 10 años de liderazgo en psicología conductual y psicometría convertidos en un foso técnico inexpugnable para optimizar telemetría de producto, retención y evaluación ética de Inteligencia Artificial.
+          <strong data-i18n-en="From Behavioral Signals to Production Data Pipelines:" data-i18n-es="Estrategia Del Diván al Dato:" data-i18n-zh="核心壁垒：从行为信号到生产级数据管道：">From Behavioral Signals to Production Data Pipelines:</strong>
+          <span data-i18n-en=" Over 10 years of behavioral psychology leadership and psychometrics converted into a defensible engineering moat for product telemetry, user retention, and ethical AI evaluation." data-i18n-es=" Más de 10 años de liderazgo en psicología conductual y psicometría convertidos en un foso técnico inexpugnable para optimizar telemetría de producto, retención y evaluación ética de Inteligencia Artificial." data-i18n-zh=" 拥有超过10年行为心理学与心理测量学领导经验，将其转化为坚不可摧的技术壁垒，专长于产品遥测、用户留存与人工智能模型伦理评估。">
+            Over 10 years of behavioral psychology leadership and psychometrics converted into a defensible engineering moat for product telemetry, user retention, and ethical AI evaluation.
           </span>
         </div>
         
         <div class="hero-cta">
-          <a href="#projects" class="btn-primary" data-i18n-es="Explorar Proyectos" data-i18n-en="Explore Projects">
+          <a href="#projects" class="btn-primary" data-i18n-en="Explore Projects" data-i18n-es="Explorar Proyectos" data-i18n-zh="浏览精选项目">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
-            Explorar Proyectos
+            Explore Projects
           </a>
-          <a href="#contact" class="btn-secondary" data-i18n-es="Agendar Contacto" data-i18n-en="Get in Touch">
+          <a href="#contact" class="btn-secondary" data-i18n-en="Get in Touch" data-i18n-es="Agendar Contacto" data-i18n-zh="取得联系">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-            Agendar Contacto
+            Get in Touch
           </a>
           <a href="https://github.com/neurodeveloper11" target="_blank" class="btn-secondary">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
@@ -108,7 +113,7 @@
           <img src="assets/foto.jpeg" alt="Fabio Ignacio Torres Benítez" class="profile-avatar">
         </div>
         <h2 class="profile-name">Fabio Ignacio Torres</h2>
-        <p class="profile-tag" data-i18n-es="Ingeniero de Datos & IA • M.Sc. (c)" data-i18n-en="Data Engineer & AI • M.Sc. (c)">Ingeniero de Datos & IA • M.Sc. (c)</p>
+        <p class="profile-tag" data-i18n-en="Data & AI Engineer • M.Sc. (c)" data-i18n-es="Ingeniero de Datos & IA • M.Sc. (c)" data-i18n-zh="数据与人工智能工程师 • 硕士在读">Data & AI Engineer • M.Sc. (c)</p>
         
         <div class="profile-links">
           <a href="https://github.com/neurodeveloper11" target="_blank" class="profile-link-btn" title="GitHub">
@@ -133,26 +138,26 @@
     <div class="container metrics-grid">
       <div class="metric-card">
         <div class="metric-number" data-target="46" data-suffix=" Tests">46 Tests</div>
-        <div class="metric-label" data-i18n-es="Pruebas Automatizadas (Jest)" data-i18n-en="Automated Unit Tests (Jest)">Pruebas Automatizadas (Jest)</div>
-        <div class="metric-desc" data-i18n-es="100% Validación de Algoritmos Críticos • SmartGym (Offline-First)" data-i18n-en="100% Critical Algorithm Validation • SmartGym (Offline-First)">100% Validación de Algoritmos Críticos • SmartGym (Offline-First)</div>
+        <div class="metric-label" data-i18n-en="Automated Unit Tests (Jest)" data-i18n-es="Pruebas Automatizadas (Jest)" data-i18n-zh="自动化单元测试 (Jest)">Pruebas Automatizadas (Jest)</div>
+        <div class="metric-desc" data-i18n-en="100% Critical Algorithm Validation • SmartGym (Offline-First)" data-i18n-es="100% Validación de Algoritmos Críticos • SmartGym (Offline-First)" data-i18n-zh="核心算法 100% 验证 • SmartGym (纯离线架构)">100% Validación de Algoritmos Críticos • SmartGym (Offline-First)</div>
       </div>
       
       <div class="metric-card">
         <div class="metric-number" data-target="49" data-suffix=" Juegos">49 Juegos</div>
-        <div class="metric-label" data-i18n-es="Juegos Cognitivos en Total" data-i18n-en="Total Cognitive Games in Production">Juegos Cognitivos en Total</div>
-        <div class="metric-desc" data-i18n-es="Publicado en Google Play (NeuroGym) con telemetría DDA" data-i18n-en="Published on Google Play (NeuroGym) with adaptive DDA telemetry">Publicado en Google Play (NeuroGym) con telemetría DDA</div>
+        <div class="metric-label" data-i18n-en="Total Cognitive Games in Production" data-i18n-es="Juegos Cognitivos en Total" data-i18n-zh="生产级认知训练游戏总数">Juegos Cognitivos en Total</div>
+        <div class="metric-desc" data-i18n-en="Published on Google Play (NeuroGym) with adaptive DDA telemetry" data-i18n-es="Publicado en Google Play (NeuroGym) con telemetría DDA" data-i18n-zh="Google Play 官方已上线 (NeuroGym) 搭载自适应 DDA 遥测">Publicado en Google Play (NeuroGym) con telemetría DDA</div>
       </div>
       
       <div class="metric-card">
         <div class="metric-number" data-target="120" data-prefix="<" data-suffix="ms">&lt;120ms</div>
-        <div class="metric-label" data-i18n-es="Latencia de Inferencia ML" data-i18n-en="ML Inference Latency">Latencia de Inferencia ML</div>
-        <div class="metric-desc" data-i18n-es="FastAPI + Validación Walk-Forward (BTC Quant Lab)" data-i18n-en="FastAPI + Walk-Forward Validation (BTC Quant Lab)">FastAPI + Validación Walk-Forward (BTC Quant Lab)</div>
+        <div class="metric-label" data-i18n-en="ML Inference Latency" data-i18n-es="Latencia de Inferencia ML" data-i18n-zh="机器学习推理延迟">Latencia de Inferencia ML</div>
+        <div class="metric-desc" data-i18n-en="FastAPI + Walk-Forward Validation (BTC Quant Lab)" data-i18n-es="FastAPI + Validación Walk-Forward (BTC Quant Lab)" data-i18n-zh="FastAPI + 时间序列 Walk-Forward 验证 (BTC Quant Lab)">FastAPI + Validación Walk-Forward (BTC Quant Lab)</div>
       </div>
       
       <div class="metric-card">
         <div class="metric-number" data-target="10" data-suffix="+ Años">10+ Años</div>
-        <div class="metric-label" data-i18n-es="Liderazgo Psicométrico & Datos" data-i18n-en="Psychometrics & Data Leadership">Liderazgo Psicométrico & Datos</div>
-        <div class="metric-desc" data-i18n-es="1,500+ colaboradores evaluados, -28% estrés ocupacional" data-i18n-en="1,500+ evaluated workers, -28% occupational stress">1,500+ colaboradores evaluados, -28% estrés ocupacional</div>
+        <div class="metric-label" data-i18n-en="Psychometrics & Data Leadership" data-i18n-es="Liderazgo Psicométrico & Datos" data-i18n-zh="心理测量学与行为数据领导经验">Liderazgo Psicométrico & Datos</div>
+        <div class="metric-desc" data-i18n-en="1,500+ evaluated workers, -28% occupational stress" data-i18n-es="1,500+ colaboradores evaluados, -28% estrés ocupacional" data-i18n-zh="评估 1,500+ 名员工，职业压力降低 28%">1,500+ colaboradores evaluados, -28% estrés ocupacional</div>
       </div>
     </div>
   </section>
@@ -227,10 +232,10 @@
       </div>
       
       <div class="filter-tabs">
-        <button class="tab-btn active" data-filter="all" data-i18n-es="Todos los Proyectos" data-i18n-en="All Projects">Todos los Proyectos</button>
-        <button class="tab-btn" data-filter="data-science" data-i18n-es="Ciencia de Datos & ML" data-i18n-en="Data Science & ML">Ciencia de Datos & ML</button>
-        <button class="tab-btn" data-filter="data-pipelines" data-i18n-es="Pipelines Cloud & Backend" data-i18n-en="Cloud Pipelines & Backend">Pipelines Cloud & Backend</button>
-        <button class="tab-btn" data-filter="mobile-ai" data-i18n-es="Apps Móviles & Telemetría" data-i18n-en="Mobile Apps & Telemetry">Apps Móviles & Telemetría</button>
+        <button class="tab-btn active" data-filter="all" data-i18n-en="All Projects" data-i18n-es="Todos los Proyectos" data-i18n-zh="全部项目">Todos los Proyectos</button>
+        <button class="tab-btn" data-filter="data-science" data-i18n-en="Data Science & ML" data-i18n-es="Ciencia de Datos & ML" data-i18n-zh="数据科学与机器学习">Ciencia de Datos & ML</button>
+        <button class="tab-btn" data-filter="data-pipelines" data-i18n-en="Cloud Pipelines & Backend" data-i18n-es="Pipelines Cloud & Backend" data-i18n-zh="云端管道与后端">Pipelines Cloud & Backend</button>
+        <button class="tab-btn" data-filter="mobile-ai" data-i18n-en="Mobile Apps & Telemetry" data-i18n-es="Apps Móviles & Telemetría" data-i18n-zh="移动端与行为遥测">Apps Móviles & Telemetría</button>
       </div>
       
       <div class="projects-grid">
@@ -543,7 +548,7 @@
         <div class="skill-category">
           <h3>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20V10"></path><path d="M12 20V4"></path><path d="M6 20v-6"></path></svg>
-            <span data-i18n-es="Ciencia de Datos & ML" data-i18n-en="Data Science & ML">Ciencia de Datos & ML</span>
+            <span data-i18n-en="Data Science & ML" data-i18n-es="Ciencia de Datos & ML" data-i18n-zh="数据科学与机器学习">Ciencia de Datos & ML</span>
           </h3>
           <div class="skill-items">
             <div class="skill-item"><span>scikit-learn (Clasificación & Regresión)</span> <span class="skill-level">Avanzado</span></div>

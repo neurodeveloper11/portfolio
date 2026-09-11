@@ -1,6 +1,6 @@
-﻿/**
+/**
  * FABIO IGNACIO TORRES BENÍTEZ — PORTFOLIO ENGINE
- * Responsive, local-first theme & language controller, dynamic metrics & interactive filters.
+ * Responsive, local-first theme & tri-lingual controller (EN / ES / 中文), dynamic metrics & interactive filters.
  */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -34,49 +34,62 @@ function applyTheme(theme) {
   if (theme === "dark") {
     document.documentElement.setAttribute("data-theme", "dark");
     if (themeIcon) {
-      // Sun icon for switching back to light
       themeIcon.innerHTML = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>`;
     }
   } else {
     document.documentElement.removeAttribute("data-theme");
     if (themeIcon) {
-      // Moon icon for switching to dark
       themeIcon.innerHTML = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>`;
     }
   }
 }
 
 /* -------------------------------------------------------------------------- */
-/* LANGUAGE CONTROLLER: ES <-> EN Dynamic Content Swap                        */
+/* TRI-LINGUAL CONTROLLER: EN (Default) <-> ES <-> 中文                       */
 /* -------------------------------------------------------------------------- */
+const titles = {
+  en: "Fabio Torres | Data Science Engineer, Machine Learning & Cloud Data Pipelines",
+  es: "Fabio Torres | Ingeniero en Ciencia de Datos, Machine Learning & Cloud Data Pipelines",
+  zh: "Fabio Torres (法比奥) | 数据科学、机器学习与云数据管道工程师"
+};
+
 function initLanguage() {
-  const langToggleBtn = document.getElementById("langToggle");
-  const savedLang = localStorage.getItem("ft_lang") || "es";
+  const langPills = document.querySelectorAll(".lang-pill");
+  const savedLang = localStorage.getItem("ft_lang") || "en";
   
   applyLanguage(savedLang);
   
-  if (langToggleBtn) {
-    langToggleBtn.addEventListener("click", () => {
-      const currentLang = localStorage.getItem("ft_lang") || "es";
-      const nextLang = currentLang === "es" ? "en" : "es";
-      applyLanguage(nextLang);
-      localStorage.setItem("ft_lang", nextLang);
+  langPills.forEach(pill => {
+    pill.addEventListener("click", () => {
+      const selectedLang = pill.getAttribute("data-lang");
+      applyLanguage(selectedLang);
+      localStorage.setItem("ft_lang", selectedLang);
     });
-  }
+  });
 }
 
 function applyLanguage(lang) {
-  const langToggleBtn = document.getElementById("langToggle");
-  if (langToggleBtn) {
-    langToggleBtn.innerText = lang === "es" ? "EN" : "ES";
-    langToggleBtn.title = lang === "es" ? "Switch to English" : "Cambiar a Español";
-  }
-  
   document.documentElement.setAttribute("lang", lang);
+  document.title = titles[lang] || titles.en;
   
-  const i18nElements = document.querySelectorAll("[data-i18n-es]");
+  const langPills = document.querySelectorAll(".lang-pill");
+  langPills.forEach(pill => {
+    if (pill.getAttribute("data-lang") === lang) {
+      pill.classList.add("active");
+    } else {
+      pill.classList.remove("active");
+    }
+  });
+  
+  const i18nElements = document.querySelectorAll("[data-i18n-en], [data-i18n-es], [data-i18n-zh]");
   i18nElements.forEach(el => {
-    const text = lang === "en" ? el.getAttribute("data-i18n-en") : el.getAttribute("data-i18n-es");
+    let text = el.getAttribute("data-i18n-" + lang);
+    if (!text && lang === "zh") {
+      // Fallback to EN if Chinese text is missing
+      text = el.getAttribute("data-i18n-en");
+    } else if (!text) {
+      text = el.getAttribute("data-i18n-en");
+    }
     if (text) {
       el.innerHTML = text;
     }
@@ -84,7 +97,7 @@ function applyLanguage(lang) {
 }
 
 /* -------------------------------------------------------------------------- */
-/* METRIC ANIMATED COUNTERS (Google XYZ Impact)                                */
+/* METRIC ANIMATED COUNTERS                                                   */
 /* -------------------------------------------------------------------------- */
 function initMetricsCounter() {
   const metricNumbers = document.querySelectorAll(".metric-number");
@@ -190,9 +203,13 @@ function initSmoothScroll() {
 /* -------------------------------------------------------------------------- */
 window.copyToClipboard = function(text, successMsg) {
   navigator.clipboard.writeText(text).then(() => {
-    showToast(successMsg || "Copiado al portapapeles / Copied to clipboard");
+    const lang = document.documentElement.getAttribute("lang") || "en";
+    let defaultMsg = "Copied to clipboard!";
+    if (lang === "es") defaultMsg = "¡Copiado al portapapeles!";
+    if (lang === "zh") defaultMsg = "已复制到剪贴板！";
+    showToast(successMsg || defaultMsg);
   }).catch(() => {
-    showToast("Error al copiar");
+    showToast("Error copying to clipboard");
   });
 };
 
