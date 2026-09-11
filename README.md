@@ -22,7 +22,7 @@ My unique competitive moat —**"Del Diván al Dato"**— bridges the gap betwee
 - **Dual Color System:** Modern Silicon Valley **Blanco Grisáceo** (`#f8fafc` / `#f1f5f9`) as the primary theme, paired with an instant toggle to a sleek **Tech Dark Mode** (`#0b0f19`).
 - **Dynamic Bilingual Engine:** Full instant language switching (**ES / EN**) with zero latency and state persistence via `localStorage`.
 - **Zero CDN Failure Vulnerability:** 100% self-contained native CSS and JavaScript. Immune to adblockers, strict corporate proxies, or Brave Shields interference.
-- **Audited Google XYZ Metrics:** Every featured project articulates verified business impact (latency reduction, lines of code, test coverage, and retention metrics).
+- **Quantified Key Results:** Every featured project articulates verified business and engineering impact (latency reduction, test reliability, and user retention metrics).
 
 ---
 
