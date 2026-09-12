@@ -1,4 +1,4 @@
-﻿# Fabio Ignacio Torres Benítez — Official Engineering & Data Science Portfolio
+# Fabio Ignacio Torres Benítez — Official Engineering & Data Science Portfolio
 
 [![GitHub Pages](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-2563eb?style=for-the-badge&logo=github)](https://neurodeveloper11.github.io/portfolio/)
 [![Google Play](https://img.shields.io/badge/Google%20Play-NeuroGym%20Live-34d399?style=for-the-badge&logo=googleplay)](https://play.google.com/store/apps/details?id=com.t11.neurochess&hl=es_419)
@@ -54,23 +54,6 @@ flowchart LR
     E --> F["Behavioral Feedback Loop<br>(DDA / Adaptive Retention)"]
     F -.-> A
 ```
-
----
-
-## Local Development & Preview
-
-Clone the repository and open `index.html` in any modern web browser, or serve it with Python:
-
-```bash
-# Clone repository
-git clone https://github.com/neurodeveloper11/portfolio.git
-cd portfolio
-
-# Launch lightweight local server
-python -m http.server 8080
-```
-
-Navigate to `http://localhost:8080` to inspect both Blanco Grisáceo and Dark Mode themes.
 
 ---
 
