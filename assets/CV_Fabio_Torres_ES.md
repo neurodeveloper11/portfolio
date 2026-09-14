@@ -3,7 +3,7 @@
 📍 Cali / Buenaventura, Colombia (Disponible para Trabajo Remoto Global, Híbrido y Reubicación Internacional)  
 📱 Móvil / WhatsApp: +57 321 628 4300 | +57 312 889 6929  
 ✉️ Correo Electrónico: psicologofabiotorres@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/fabio-torres-39364b258) | [GitHub](https://github.com/neurodeveloper11) | [Google Play (NeuroGym Live)](https://play.google.com/store/apps/details?id=com.t11.neurochess&hl=es_419)
+🔗 [LinkedIn](https://www.linkedin.com/in/fabio-torres-39364b258) | [GitHub](https://github.com/neurodeveloper11) | [Hugging Face](https://huggingface.co/neurodeveloper) | [Google Play (NeuroGym Live)](https://play.google.com/store/apps/details?id=com.t11.neurochess&hl=es_419)
 
 ---
 
