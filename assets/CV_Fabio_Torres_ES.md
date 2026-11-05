@@ -13,7 +13,7 @@
 
 Especialista en concebir, arquitectar y poner en producción sistemas de software robustos y canalizaciones de datos escalables. Autor de aplicaciones móviles de alta complejidad con arquitecturas *offline-first* (**SmartGym** — ~19,600 líneas de TypeScript y 46 pruebas automatizadas; **NeuroGym** — publicada en **Google Play Store** con más de 51 juegos cognitivos y motor de IA híbrido), plataformas cuantitativas de predicción financiera con Machine Learning (**BTC Quant Lab** — FastAPI con latencia <120ms) y orquestación multi-modelo de LLMs (**EnglishEasy**).
 
-Doble certificación profesional de **IBM** en Ciencia de Datos y Desarrollo Full Stack. Su diferencial es la aplicación de modelos psicométricos, análisis de telemetría de usuario y principios de psicología cognitiva para optimizar la retención de productos digitales, la ergonomía de software y la evaluación ética y libre de sesgos en sistemas de Inteligencia Artificial. Campeón Nacional de Ajedrez Sub-16 (2009), con experiencia liderando comunidades de más de 7,000 personas y facilitando procesos críticos bajo alta presión. Bilingüe: Español (Nativo) e Inglés (Nivel Profesional B2/C1).
+Doble certificación profesional de **IBM** en Ciencia de Datos y Desarrollo Full Stack. Su diferencial es la aplicación de modelos psicométricos, análisis de telemetría de usuario y principios de psicología cognitiva para optimizar la retención de productos digitales, la ergonomía de software y la evaluación ética y libre de sesgos en sistemas de Inteligencia Artificial. Campeón Nacional de Ajedrez Sub-16 (2009) y entrenador de ajedrez certificado por la Federación Colombiana de Ajedrez (FECODAZ), con experiencia liderando comunidades de más de 7,000 personas y facilitando procesos críticos bajo alta presión. Bilingüe: Español (Nativo) e Inglés (Nivel Profesional B2/C1).
 
 ---
 
@@ -23,7 +23,7 @@ Doble certificación profesional de **IBM** en Ciencia de Datos y Desarrollo Ful
 - **Backend, APIs y Cloud:** FastAPI (asíncrono, OpenAPI/Swagger), Node.js, Vercel Serverless, Firebase (Auth, Firestore, Cloud Functions), GCP / AWS core, Docker, testing automatizado (`pytest`, `jest`), Clean Architecture, principios SOLID.
 - **Frontend y Desarrollo Móvil:** React Native, Expo (SDK 57, EAS Build), TypeScript, React.js, Vite, Android Nativo (Kotlin, Jetpack Compose, Room DB), arquitecturas *offline-first* con persistencia local y sincronización asíncrona.
 - **Inteligencia Artificial y LLMs:** Orquestación de APIs de LLMs (Gemini, Anthropic Claude, OpenRouter), Prompt Engineering avanzado, proxies serverless, telemetría de producto, evaluación cuantitativa de modelos y alineación de sesgos.
-- **Ciencias del Comportamiento y Liderazgo:** Psicometría, Batería de Factores de Riesgo Psicosocial (Res. 2764/2022), ergonomía cognitiva, diseño de incentivos conductuales, toma de decisiones estratégicas bajo presión (entrenador de ajedrez).
+- **Ciencias del Comportamiento y Liderazgo:** Psicometría, Batería de Factores de Riesgo Psicosocial (Res. 2764/2022), ergonomía cognitiva, diseño de incentivos conductuales, toma de decisiones estratégicas bajo presión (entrenador de ajedrez certificado por FECODAZ).
 
 ---
 
@@ -144,6 +144,6 @@ Doble certificación profesional de **IBM** en Ciencia de Datos y Desarrollo Ful
 ## IDIOMAS Y REFERENCIAS
 
 - **Español:** Nativo.
-- **Inglés:** Nivel Profesional B1 Alto / C1 Técnico. Formación de 300 horas certificada por English Live (2022). Fluidez para diseño de sistemas, entrevistas técnicas y redacción de código y documentación.
+- **Inglés:** Nivel Profesional B2/C1. Formación de 300 horas certificada por English Live (2022). Fluidez para diseño de sistemas, entrevistas técnicas y redacción de código y documentación.
 
 **Referencias profesionales:** disponibles a solicitud.

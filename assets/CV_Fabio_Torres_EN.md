@@ -13,7 +13,7 @@
 
 Specialist in conceptualizing, architecting, and deploying production-grade systems and scalable data pipelines. Creator of high-complexity mobile applications featuring strict *offline-first* architectures (**SmartGym** — ~19,600 lines of TypeScript and 46 automated unit tests; **NeuroGym** — published on **Google Play Store** with 51+ cognitive games and hybrid local/cloud AI), quantitative financial prediction platforms with Machine Learning (**BTC Quant Lab** — sub-120ms FastAPI inference latency), and multi-LLM orchestration engines (**EnglishEasy**).
 
-Holds dual professional certifications from **IBM** in Data Science and Full Stack Software Development. Key differentiator: applying psychometric modeling, behavioral telemetry analysis, and cognitive psychology principles to maximize digital product retention, optimize software ergonomics, and ensure ethical, bias-free evaluation in AI systems. Colombian U-16 National Chess Champion (2009), with proven experience leading digital communities exceeding 7,000+ members and managing high-stakes operational environments. Bilingual: Spanish (Native) and English (Professional Upper-Intermediate B2/C1).
+Holds dual professional certifications from **IBM** in Data Science and Full Stack Software Development. Key differentiator: applying psychometric modeling, behavioral telemetry analysis, and cognitive psychology principles to maximize digital product retention, optimize software ergonomics, and ensure ethical, bias-free evaluation in AI systems. Colombian U-16 National Chess Champion (2009) and chess coach certified by the Colombian Chess Federation (FECODAZ), with proven experience leading digital communities exceeding 7,000+ members and managing high-stakes operational environments. Bilingual: Spanish (Native) and English (Professional Upper-Intermediate B2/C1).
 
 ---
 
@@ -23,7 +23,7 @@ Holds dual professional certifications from **IBM** in Data Science and Full Sta
 - **Backend, APIs & Cloud:** FastAPI (Asynchronous, OpenAPI/Swagger), Node.js, Vercel Serverless, Firebase (Auth, Firestore, Cloud Functions), GCP / AWS core fundamentals, Docker, automated testing (`pytest`, `jest`), Clean Architecture, SOLID design principles.
 - **Frontend & Mobile Development:** React Native, Expo (SDK 57, EAS Build), TypeScript, React.js, Vite, Android Native (Kotlin, Jetpack Compose, Room DB), *offline-first* architectures with local persistence and asynchronous sync.
 - **Artificial Intelligence & LLMs:** Multi-provider LLM API orchestration (Google Gemini, Anthropic Claude, OpenRouter), advanced Prompt Engineering, serverless AI proxies, product telemetry, quantitative model benchmarking, bias reduction.
-- **Behavioral Science & Leadership:** Psychometrics, Psychosocial Risk Assessment (Res. 2764/2022), cognitive ergonomics, behavioral retention loops, strategic decision-making under pressure (chess coach).
+- **Behavioral Science & Leadership:** Psychometrics, Psychosocial Risk Assessment (Res. 2764/2022), cognitive ergonomics, behavioral retention loops, strategic decision-making under pressure (FECODAZ-certified chess coach).
 
 ---
 
@@ -106,7 +106,7 @@ Holds dual professional certifications from **IBM** in Data Science and Full Sta
 ## FORMAL EDUCATION
 
 - **Master of Science in Data Engineering & Cloud Infrastructure (M.Sc.)**  
-  *Universidad Tecnológica Latinoamericana (UTEL)* | *Currently Enrolled (2025 – Present)*
+  *Universidad Tecnológica Latinoamericana (UTEL)* | *Currently Enrolled (2026 – Present)*
 - **Bachelor of Science in Psychology (B.S. - 5-Year Professional Degree)**  
   *Universidad de San Buenaventura, Santiago de Cali, Colombia* | *Graduated 2016*  
   *Undergraduate Thesis: Chess as a Ludic Strategy for the Development of Attention and Working Memory.*
