@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" data-title-en="BTC Quant Lab · Case study | Fabio Torres" data-title-es="BTC Quant Lab · Caso de estudio | Fabio Torres">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BTC Quant Lab · Case study | Fabio Torres</title>
+  <meta name="description" content="Caso de estudio de BTC Quant Lab: laboratorio de series de tiempo de criptoactivos con pandas, scikit-learn, validación walk-forward y API FastAPI con inferencia &lt;120 ms.">
+  <meta name="author" content="Fabio Ignacio Torres Benítez">
+  <link rel="canonical" href="https://neurodeveloper11.github.io/portfolio/casos/btc-quant-lab.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="BTC Quant Lab · Case study | Fabio Torres">
+  <meta property="og:description" content="Caso de estudio de BTC Quant Lab: laboratorio de series de tiempo de criptoactivos con pandas, scikit-learn, validación walk-forward y API FastAPI con inferencia &lt;120 ms.">
+  <meta property="og:image" content="https://neurodeveloper11.github.io/portfolio/assets/og-preview.png">
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="../index.html" class="nav-brand">
+        <div class="brand-icon">FT</div>
+        <span>Fabio Torres</span>
+      </a>
+      <div class="nav-actions">
+        <div class="lang-switch-group">
+          <button class="lang-pill active" data-lang="en">EN</button>
+          <button class="lang-pill" data-lang="es">ES</button>
+        </div>
+        <button id="themeToggle" class="control-btn" title="Theme">
+          <span id="themeIcon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="case-hero">
+      <div class="container">
+        <a href="../index.html#projects" class="case-back">&larr; <span data-i18n-en="Back to portfolio" data-i18n-es="Volver al portafolio">Back to portfolio</span></a>
+        <span class="section-badge" data-i18n-en="Case study · ML &amp; time series" data-i18n-es="Caso de estudio · ML y series de tiempo">Case study · ML &amp; time series</span>
+        <h1>BTC Quant Lab</h1>
+        <p class="case-lead" data-i18n-en="Research and prediction lab for digital-asset time series: automated data ingestion, feature engineering, machine-learning models validated walk-forward, and a FastAPI inference service. Built as data engineer and lead backend developer (2024 – present)." data-i18n-es="Laboratorio de investigación y predicción de series de tiempo de criptoactivos: ingesta automatizada de datos, ingeniería de variables, modelos de machine learning validados con walk-forward y un servicio de inferencia en FastAPI. Construido como ingeniero de datos y desarrollador backend principal (2024 – presente).">Research and prediction lab for digital-asset time series: automated data ingestion, feature engineering, machine-learning models validated walk-forward, and a FastAPI inference service. Built as data engineer and lead backend developer (2024 – present).</p>
+        <div class="case-meta tech-tags">
+          <span class="tech-tag">Python 3.11</span>
+          <span class="tech-tag">pandas</span>
+          <span class="tech-tag">NumPy</span>
+          <span class="tech-tag">scikit-learn</span>
+          <span class="tech-tag">FastAPI</span>
+          <span class="tech-tag">Pydantic</span>
+          <span class="tech-tag">OpenAPI / Swagger</span>
+        </div>
+        <p class="case-notice" data-i18n-en="🔒 The source code of this product is private. This page describes what it does and how it is built, without publishing code. A live walkthrough is available in interviews." data-i18n-es="🔒 El código fuente de este producto es privado. Esta página describe qué hace y cómo está construido, sin publicar código. Hay un recorrido en vivo disponible en entrevistas.">🔒 The source code of this product is private. This page describes what it does and how it is built, without publishing code. A live walkthrough is available in interviews.</p>
+      </div>
+    </section>
+
+    <section class="case-section">
+      <div class="container">
+        <h2 data-i18n-en="What it does" data-i18n-es="Qué hace">What it does</h2>
+        <ul>
+            <li data-i18n-en="Ingests and cleans multi-timeframe OHLCV market data automatically, including outlier rejection." data-i18n-es="Ingiere y limpia automáticamente datos de mercado OHLCV en varias temporalidades, con rechazo de valores atípicos.">Ingests and cleans multi-timeframe OHLCV market data automatically, including outlier rejection.</li>
+            <li data-i18n-en="Builds 25+ vectorized technical features: RSI, MACD, Bollinger Bands, realized volatility, momentum and cyclical (Fourier) components." data-i18n-es="Genera más de 25 variables técnicas vectorizadas: RSI, MACD, Bandas de Bollinger, volatilidad realizada, momentum y componentes cíclicos (Fourier).">Builds 25+ vectorized technical features: RSI, MACD, Bollinger Bands, realized volatility, momentum and cyclical (Fourier) components.</li>
+            <li data-i18n-en="Trains ensemble models (Random Forest, Gradient Boosting) and evaluates them with walk-forward validation, reporting Sharpe ratio and drawdown." data-i18n-es="Entrena modelos de ensamble (Random Forest, Gradient Boosting) y los evalúa con validación walk-forward, reportando Sharpe y drawdown.">Trains ensemble models (Random Forest, Gradient Boosting) and evaluates them with walk-forward validation, reporting Sharpe ratio and drawdown.</li>
+            <li data-i18n-en="Serves predictions through a FastAPI REST API with Pydantic validation, interactive Swagger docs and inference under 120 ms; includes a desktop UI." data-i18n-es="Sirve predicciones mediante una API REST en FastAPI con validación Pydantic, documentación Swagger interactiva e inferencia por debajo de 120 ms; incluye una interfaz de escritorio.">Serves predictions through a FastAPI REST API with Pydantic validation, interactive Swagger docs and inference under 120 ms; includes a desktop UI.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="case-section">
+      <div class="container">
+        <h2 data-i18n-en="Architecture" data-i18n-es="Arquitectura">Architecture</h2>
+        <div class="arch-container">
+          <div class="case-flow">
+          <div class="flow-node">
+            <div class="flow-number">1</div>
+            <h4 data-i18n-en="Ingestion" data-i18n-es="Ingesta">Ingestion</h4>
+            <p data-i18n-en="Multi-timeframe OHLCV, cleaning and outlier rejection." data-i18n-es="OHLCV multi-temporalidad, limpieza y rechazo de atípicos.">Multi-timeframe OHLCV, cleaning and outlier rejection.</p>
+          </div>
+          <div class="flow-node">
+            <div class="flow-number">2</div>
+            <h4 data-i18n-en="Features" data-i18n-es="Variables">Features</h4>
+            <p data-i18n-en="25+ indicators with pandas/NumPy; volatility regimes." data-i18n-es="25+ indicadores con pandas/NumPy; regímenes de volatilidad.">25+ indicators with pandas/NumPy; volatility regimes.</p>
+          </div>
+          <div class="flow-node">
+            <div class="flow-number">3</div>
+            <h4 data-i18n-en="Models" data-i18n-es="Modelos">Models</h4>
+            <p data-i18n-en="Random Forest and Gradient Boosting (scikit-learn)." data-i18n-es="Random Forest y Gradient Boosting (scikit-learn).">Random Forest and Gradient Boosting (scikit-learn).</p>
+          </div>
+          <div class="flow-node">
+            <div class="flow-number">4</div>
+            <h4 data-i18n-en="Walk-forward" data-i18n-es="Walk-forward">Walk-forward</h4>
+            <p data-i18n-en="Train on the past, test on the next window; Sharpe &amp; drawdown." data-i18n-es="Entrena con el pasado, prueba en la ventana siguiente; Sharpe y drawdown.">Train on the past, test on the next window; Sharpe &amp; drawdown.</p>
+          </div>
+          <div class="flow-node">
+            <div class="flow-number">5</div>
+            <h4 data-i18n-en="Serving" data-i18n-es="Servicio">Serving</h4>
+            <p data-i18n-en="FastAPI + Pydantic, Swagger, &lt;120 ms inference; desktop UI." data-i18n-es="FastAPI + Pydantic, Swagger, inferencia &lt;120 ms; UI de escritorio.">FastAPI + Pydantic, Swagger, &lt;120 ms inference; desktop UI.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-section">
+      <div class="container">
+        <h2 data-i18n-en="Key engineering decisions" data-i18n-es="Decisiones técnicas clave">Key engineering decisions</h2>
+        <div class="case-grid">
+          <div class="case-card">
+            <h3 data-i18n-en="Walk-forward instead of random splits" data-i18n-es="Walk-forward en lugar de particiones aleatorias">Walk-forward instead of random splits</h3>
+            <p data-i18n-en="Random k-fold leaks future information into training on time series. Walk-forward validation always trains on past data and tests on the following period, avoiding lookahead bias." data-i18n-es="En series de tiempo, el k-fold aleatorio filtra información del futuro al entrenamiento. La validación walk-forward siempre entrena con datos pasados y evalúa en el período siguiente, evitando el sesgo de anticipación.">Random k-fold leaks future information into training on time series. Walk-forward validation always trains on past data and tests on the following period, avoiding lookahead bias.</p>
+          </div>
+          <div class="case-card">
+            <h3 data-i18n-en="Risk-aware evaluation" data-i18n-es="Evaluación con foco en el riesgo">Risk-aware evaluation</h3>
+            <p data-i18n-en="Models are judged on Sharpe ratio and drawdown, not only on accuracy, because a precise but volatile signal can still lose money." data-i18n-es="Los modelos se evalúan por Sharpe y drawdown, no solo por precisión, porque una señal precisa pero volátil igual puede perder dinero.">Models are judged on Sharpe ratio and drawdown, not only on accuracy, because a precise but volatile signal can still lose money.</p>
+          </div>
+          <div class="case-card">
+            <h3 data-i18n-en="Typed API contract" data-i18n-es="Contrato de API tipado">Typed API contract</h3>
+            <p data-i18n-en="Pydantic schemas validate every request and response, and the OpenAPI/Swagger docs make the service easy to consume and test." data-i18n-es="Los esquemas Pydantic validan cada solicitud y respuesta, y la documentación OpenAPI/Swagger facilita consumir y probar el servicio.">Pydantic schemas validate every request and response, and the OpenAPI/Swagger docs make the service easy to consume and test.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-section">
+      <div class="container">
+        <h2 data-i18n-en="Quality &amp; testing" data-i18n-es="Calidad y pruebas">Quality &amp; testing</h2>
+        <ul>
+            <li data-i18n-en="Vectorized feature computation with pandas and NumPy." data-i18n-es="Cálculo vectorizado de variables con pandas y NumPy.">Vectorized feature computation with pandas and NumPy.</li>
+            <li data-i18n-en="Inference latency under 120 ms on the FastAPI service." data-i18n-es="Latencia de inferencia inferior a 120 ms en el servicio FastAPI.">Inference latency under 120 ms on the FastAPI service.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!--
+      SCREENSHOTS & VIDEO (pending)
+      1) Put screenshots in assets/casos/btc-quant-lab/ (e.g. 01.png, 02.png, 03.png). Hide personal data first.
+      2) Uncomment the block below and adjust file names / alt texts.
+      3) For the demo video, upload it to YouTube (unlisted is fine) or Loom and paste the embed URL.
+
+    <section class="case-section">
+      <div class="container">
+        <h2 data-i18n-en="Screenshots" data-i18n-es="Capturas">Screenshots</h2>
+        <div class="case-gallery">
+          <img src="../assets/casos/btc-quant-lab/01.png" alt="BTC Quant Lab – screen 1" loading="lazy">
+          <img src="../assets/casos/btc-quant-lab/02.png" alt="BTC Quant Lab – screen 2" loading="lazy">
+          <img src="../assets/casos/btc-quant-lab/03.png" alt="BTC Quant Lab – screen 3" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="case-section">
+      <div class="container">
+        <h2 data-i18n-en="Demo video" data-i18n-es="Video demo">Demo video</h2>
+        <div class="case-video">
+          <iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID" title="BTC Quant Lab demo" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+    -->
+
+    <section class="case-section">
+      <div class="container">
+        <p class="case-notice" data-i18n-en="Research and educational project. It is not financial advice or a trading recommendation." data-i18n-es="Proyecto de investigación y educativo. No constituye asesoría financiera ni recomendación de inversión.">Research and educational project. It is not financial advice or a trading recommendation.</p>
+      </div>
+    </section>
+
+    <section class="case-section">
+      <div class="container">
+        <div class="cta-section">
+          <h2 data-i18n-en="Want to see it running?" data-i18n-es="¿Quieres verlo funcionando?">Want to see it running?</h2>
+          <p data-i18n-en="I can walk you through the product and its code in a live session." data-i18n-es="Puedo mostrarte el producto y su código en una sesión en vivo.">I can walk you through the product and its code in a live session.</p>
+          <div class="cta-buttons">
+            <a href="mailto:psicologofabiotorres@gmail.com" class="btn-primary"><span data-i18n-en="Request a walkthrough" data-i18n-es="Solicitar un recorrido">Request a walkthrough</span></a>
+            <a href="../index.html#projects" class="btn-secondary"><span data-i18n-en="More projects" data-i18n-es="Más proyectos">More projects</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div><p>&copy; 2026 Fabio Ignacio Torres Benítez</p></div>
+      <div><a href="../index.html" style="color: var(--accent-primary); font-weight: 600;">neurodeveloper11.github.io/portfolio</a></div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

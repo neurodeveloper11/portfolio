@@ -47,11 +47,16 @@ function applyTheme(theme) {
 /* -------------------------------------------------------------------------- */
 /* TRI-LINGUAL CONTROLLER: EN (Default) <-> ES <-> 中文                       */
 /* -------------------------------------------------------------------------- */
-const titles = {
-  en: "Fabio Torres | Data Science Engineer, Machine Learning & Cloud Data Pipelines",
-  es: "Fabio Torres | Ingeniero en Ciencia de Datos, Machine Learning & Cloud Data Pipelines",
-  zh: "Fabio Torres (法比奥) | 数据科学、机器学习与云数据管道工程师"
+const defaultTitles = {
+  en: "Fabio Torres | Data & AI Engineer · Python, FastAPI, SQL, Machine Learning",
+  es: "Fabio Torres | Ingeniero de Datos e IA · Python, FastAPI, SQL, Machine Learning",
+  zh: "Fabio Torres (法比奥) | 数据与人工智能工程师 · Python、FastAPI、SQL、机器学习"
 };
+// Pages can override the titles with data-title-en / data-title-es / data-title-zh on <html>
+function pageTitle(lang) {
+  const custom = document.documentElement.getAttribute("data-title-" + lang);
+  return custom || defaultTitles[lang] || defaultTitles.en;
+}
 
 function initLanguage() {
   const langPills = document.querySelectorAll(".lang-pill");
@@ -70,7 +75,7 @@ function initLanguage() {
 
 function applyLanguage(lang) {
   document.documentElement.setAttribute("lang", lang);
-  document.title = titles[lang] || titles.en;
+  document.title = pageTitle(lang);
   
   const langPills = document.querySelectorAll(".lang-pill");
   langPills.forEach(pill => {

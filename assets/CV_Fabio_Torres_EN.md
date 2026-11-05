@@ -1,7 +1,7 @@
 # FABIO IGNACIO TORRES BENÍTEZ
 **Data Engineer | Full-Stack & AI Software Engineer | Data Scientist**  
 📍 Cali / Buenaventura, Colombia (Available for Global Remote, Hybrid & Relocation)  
-📱 Mobile / WhatsApp: +57 321 628 4300 | +57 312 889 6929  
+📱 Mobile / WhatsApp: +57 321 628 4300  
 ✉️ Email: psicologofabiotorres@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/fabio-torres-39364b258) | [GitHub](https://github.com/neurodeveloper11) | [Hugging Face](https://huggingface.co/neurodeveloper) | [Google Play (NeuroGym Live)](https://play.google.com/store/apps/details?id=com.t11.neurochess&hl=es_419)
 
@@ -9,11 +9,11 @@
 
 ## PROFESSIONAL SUMMARY & VALUE PROPOSITION
 
-**Data Engineer, Full-Stack Developer, and Artificial Intelligence Engineer** combining graduate education in **M.Sc. in Data Engineering & Cloud Infrastructure** with over **10+ years of professional leadership in Organizational and Behavioral Psychology**.
+**Data Engineer, Full-Stack Developer, and Artificial Intelligence Engineer** currently pursuing an **M.Sc. in Data Engineering & Cloud Infrastructure (UTEL, in progress)**, with **10+ years of professional leadership in Organizational and Behavioral Psychology**.
 
-Specialist in conceptualizing, architecting, and deploying production-grade systems and scalable data pipelines. Creator of high-complexity mobile applications featuring strict *offline-first* architectures (**SmartGym** — ~19,600 lines of TypeScript and 46 automated unit tests; **NeuroGym** — published on **Google Play Store** with 37+ cognitive games and hybrid local/cloud AI), quantitative financial prediction platforms with Machine Learning (**BTC Quant Lab** — sub-120ms FastAPI inference latency), and multi-LLM orchestration engines (**EnglishEasy**).
+Specialist in conceptualizing, architecting, and deploying production-grade systems and scalable data pipelines. Creator of high-complexity mobile applications featuring strict *offline-first* architectures (**SmartGym** — ~19,600 lines of TypeScript and 46 automated unit tests; **NeuroGym** — published on **Google Play Store** with 51+ cognitive games and hybrid local/cloud AI), quantitative financial prediction platforms with Machine Learning (**BTC Quant Lab** — sub-120ms FastAPI inference latency), and multi-LLM orchestration engines (**EnglishEasy**).
 
-Holds dual professional certifications from **IBM** in Data Science and Full Stack Software Development. Possesses a unique **defensive domain moat**: applying psychometric modeling, behavioral telemetry analysis, and cognitive psychology principles to maximize digital product retention, optimize software ergonomics, and ensure ethical, bias-free evaluation in AI systems. National Chess Champion, with proven experience leading digital communities exceeding 7,000+ members and managing high-stakes operational environments. Bilingual: Spanish (Native) and English (Professional Upper-Intermediate B2/C1).
+Holds dual professional certifications from **IBM** in Data Science and Full Stack Software Development. Key differentiator: applying psychometric modeling, behavioral telemetry analysis, and cognitive psychology principles to maximize digital product retention, optimize software ergonomics, and ensure ethical, bias-free evaluation in AI systems. Colombian U-16 National Chess Champion (2009), with proven experience leading digital communities exceeding 7,000+ members and managing high-stakes operational environments. Bilingual: Spanish (Native) and English (Professional Upper-Intermediate B2/C1).
 
 ---
 
@@ -23,7 +23,7 @@ Holds dual professional certifications from **IBM** in Data Science and Full Sta
 - **Backend, APIs & Cloud:** FastAPI (Asynchronous, OpenAPI/Swagger), Node.js, Vercel Serverless, Firebase (Auth, Firestore, Cloud Functions), GCP / AWS core fundamentals, Docker, automated testing (`pytest`, `jest`), Clean Architecture, SOLID design principles.
 - **Frontend & Mobile Development:** React Native, Expo (SDK 57, EAS Build), TypeScript, React.js, Vite, Android Native (Kotlin, Jetpack Compose, Room DB), *offline-first* architectures with local persistence and asynchronous sync.
 - **Artificial Intelligence & LLMs:** Multi-provider LLM API orchestration (Google Gemini, Anthropic Claude, OpenRouter), advanced Prompt Engineering, serverless AI proxies, product telemetry, quantitative model benchmarking, bias reduction.
-- **Behavioral Domain Moat & Leadership:** Psychometrics, Psychosocial Risk Assessment (Res. 2764/2022), cognitive ergonomics, behavioral retention loops, high-stakes strategic calculus (National Chess Champion & Master).
+- **Behavioral Science & Leadership:** Psychometrics, Psychosocial Risk Assessment (Res. 2764/2022), cognitive ergonomics, behavioral retention loops, strategic decision-making under pressure (chess coach).
 
 ---
 
@@ -39,7 +39,7 @@ Holds dual professional certifications from **IBM** in Data Science and Full Sta
 ### NeuroGym — Mobile Cognitive Training Platform & Hybrid AI Assistant
 *Role: Creator & Lead Engineer* | React Native, Android, Firebase, SQLite, Vercel Serverless, LLMs | *2024 – Present*  
 *Production: Published and publicly available on Google Play Store*
-- Conceptualized, engineered, and published an interactive cognitive training platform on **Google Play** featuring **37+ modular minigames** targeting executive functions, working memory, and response inhibition.
+- Conceptualized, engineered, and published an interactive cognitive training platform on **Google Play** featuring **51+ modular minigames** targeting executive functions, working memory, and response inhibition.
 - Architected a **hybrid dual-engine AI assistant** dynamically routing queries between lightweight on-device models for offline responses and cloud LLMs via serverless proxies for deep cognitive analysis.
 - Built an **offline-first telemetry pipeline** with SQLite and asynchronous synchronization to Firebase Firestore, ensuring 99.8% session uptime in variable connectivity environments and cutting inference latency by 40% via edge caching.
 - Programmed a **Dynamic Difficulty Adjustment (DDA)** algorithm analyzing real-time response times ($RT$ in ms), increasing 30-day user retention by 35%.
@@ -54,7 +54,7 @@ Holds dual professional certifications from **IBM** in Data Science and Full Sta
 ### EnglishEasy — Adaptive AI-Powered Language Learning Platform
 *Role: Full-Stack Web Engineer* | React, Vite, TypeScript, Firebase Auth & Firestore, Serverless Multi-LLM Proxy | *2024 – Present*
 - Developed a web application for accelerated language acquisition featuring real-time phonetic and grammatical evaluations powered by dynamic multi-LLM orchestration (Gemini & Claude).
-- Engineered a serverless proxy on Vercel that optimized token consumption and reduced initial page load times by 45%.
+- Engineered a serverless proxy on Vercel that routes requests across providers and optimizes token consumption.
 
 ### Centinela — Native Android Anti-Theft Security Application
 *Role: Native Mobile Software Engineer* | Kotlin, Jetpack Compose, Room DB, DataStore, PBKDF2 | *2024 – Present*
@@ -73,7 +73,7 @@ Holds dual professional certifications from **IBM** in Data Science and Full Sta
 **Empresa Saludo (Fundación de Salud Ocupacional de Occidente Ltda)** | Buenaventura, Colombia  
 *March 2015 – Present (10+ Years Continuous Tenure)*
 - Direct statistical assessment and quantitative data processing of the National Psychosocial Risk Battery (Resolutions 2764/2022 and 2646/2008) for international maritime port logistics corporations (**Compas Cascajal** and **Compas Agua Dulce**).
-- Converted qualitative psychometric evaluations into structured quantitative data pipelines across 1,500+ employees, identifying risk correlations that informed interventions, reducing occupational stress indicators by 28%.
+- Converted qualitative psychometric evaluations into structured quantitative data pipelines across 1,500+ employees, identifying risk correlations that informed data-driven interventions.
 - Oversee specialized talent acquisition pipelines, competency-based interviews, and organizational climate diagnostics.
 
 ### Psychosocial Professional & Group Facilitator
@@ -146,7 +146,4 @@ Holds dual professional certifications from **IBM** in Data Science and Full Sta
 - **Spanish:** Native.
 - **English:** Professional Working Proficiency B2 Upper-Intermediate / C1 Technical. Certified 300-hour program by English Live (2022). Fluent in system design reviews, technical interviews, and engineering documentation.
 
-**Professional References:**
-- **Dr. Ramón Díaz, M.D.:** General Manager, Empresa Saludo (Fundación de Salud Ocupacional de Occidente Ltda) | Tel: (+57) 242 3900
-- **Prof. Noralva Bravo:** Senior Educator & Academic Director | Mobile: (+57) 313 708 8790
-- **Mónica Díaz:** Administrative & Operations Coordinator, Empresa Saludo | Mobile: (+57) 315 522 3052
+**Professional references:** available upon request.

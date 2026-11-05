@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" data-title-en="SmartGym · Case study | Fabio Torres" data-title-es="SmartGym · Caso de estudio | Fabio Torres">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartGym · Case study | Fabio Torres</title>
+  <meta name="description" content="Caso de estudio de SmartGym: app móvil offline-first de entrenamiento de fuerza con React Native, Expo y TypeScript, ~19,600 líneas y 46 pruebas en Jest.">
+  <meta name="author" content="Fabio Ignacio Torres Benítez">
+  <link rel="canonical" href="https://neurodeveloper11.github.io/portfolio/casos/smartgym.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="SmartGym · Case study | Fabio Torres">
+  <meta property="og:description" content="Caso de estudio de SmartGym: app móvil offline-first de entrenamiento de fuerza con React Native, Expo y TypeScript, ~19,600 líneas y 46 pruebas en Jest.">
+  <meta property="og:image" content="https://neurodeveloper11.github.io/portfolio/assets/og-preview.png">
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="../index.html" class="nav-brand">
+        <div class="brand-icon">FT</div>
+        <span>Fabio Torres</span>
+      </a>
+      <div class="nav-actions">
+        <div class="lang-switch-group">
+          <button class="lang-pill active" data-lang="en">EN</button>
+          <button class="lang-pill" data-lang="es">ES</button>
+        </div>
+        <button id="themeToggle" class="control-btn" title="Theme">
+          <span id="themeIcon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="case-hero">
+      <div class="container">
+        <a href="../index.html#projects" class="case-back">&larr; <span data-i18n-en="Back to portfolio" data-i18n-es="Volver al portafolio">Back to portfolio</span></a>
+        <span class="section-badge" data-i18n-en="Case study · Mobile" data-i18n-es="Caso de estudio · Móvil">Case study · Mobile</span>
+        <h1>SmartGym</h1>
+        <p class="case-lead" data-i18n-en="Offline-first mobile app for strength training and progressive overload, with a 12-week periodization engine. Built from scratch as creator and lead developer (2024 – present)." data-i18n-es="App móvil offline-first de entrenamiento de fuerza y sobrecarga progresiva, con un motor de periodización de 12 semanas. Creada desde cero como autor y desarrollador principal (2024 – presente).">Offline-first mobile app for strength training and progressive overload, with a 12-week periodization engine. Built from scratch as creator and lead developer (2024 – present).</p>
+        <div class="case-meta tech-tags">
+          <span class="tech-tag">React Native 0.86</span>
+          <span class="tech-tag">Expo SDK 57</span>
+          <span class="tech-tag">TypeScript</span>
+          <span class="tech-tag">Jest</span>
+          <span class="tech-tag">AsyncStorage</span>
+          <span class="tech-tag">Clean Architecture</span>
+        </div>
+        <p class="case-notice" data-i18n-en="🔒 The source code of this product is private. This page describes what it does and how it is built, without publishing code. A live walkthrough is available in interviews." data-i18n-es="🔒 El código fuente de este producto es privado. Esta página describe qué hace y cómo está construido, sin publicar código. Hay un recorrido en vivo disponible en entrevistas.">🔒 The source code of this product is private. This page describes what it does and how it is built, without publishing code. A live walkthrough is available in interviews.</p>
+      </div>
+    </section>
+
+    <section class="case-section">
+      <div class="container">
+        <h2 data-i18n-en="What it does" data-i18n-es="Qué hace">What it does</h2>
+        <ul>
+            <li data-i18n-en="Plans and logs strength workouts with progressive overload and a 12-week periodization cycle that includes deload weeks." data-i18n-es="Planifica y registra entrenamientos de fuerza con sobrecarga progresiva y un ciclo de periodización de 12 semanas con semanas de descarga.">Plans and logs strength workouts with progressive overload and a 12-week periodization cycle that includes deload weeks.</li>
+            <li data-i18n-en="Estimates one-rep max (1RM) and computes weekly training volume per muscle group." data-i18n-es="Estima la repetición máxima (1RM) y calcula el volumen semanal de entrenamiento por grupo muscular.">Estimates one-rep max (1RM) and computes weekly training volume per muscle group.</li>
+            <li data-i18n-en="Works 100% offline: all data is stored on the device, with no server dependency." data-i18n-es="Funciona 100 % sin conexión: todos los datos se guardan en el dispositivo, sin depender de un servidor.">Works 100% offline: all data is stored on the device, with no server dependency.</li>
+            <li data-i18n-en="Uses native device features: fingerprint authentication, calendar sync, voice (TTS) coaching, local notifications and screen keep-awake." data-i18n-es="Usa funciones nativas del dispositivo: autenticación por huella, sincronización con el calendario, guía por voz (TTS), notificaciones locales y pantalla siempre encendida.">Uses native device features: fingerprint authentication, calendar sync, voice (TTS) coaching, local notifications and screen keep-awake.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="case-section">
+      <div class="container">
+        <h2 data-i18n-en="Architecture" data-i18n-es="Arquitectura">Architecture</h2>
+        <div class="arch-container">
+          <div class="case-flow">
+          <div class="flow-node">
+            <div class="flow-number">1</div>
+            <h4 data-i18n-en="UI" data-i18n-es="Interfaz">UI</h4>
+            <p data-i18n-en="React Native + Expo screens and components." data-i18n-es="Pantallas y componentes en React Native + Expo.">React Native + Expo screens and components.</p>
+          </div>
+          <div class="flow-node">
+            <div class="flow-number">2</div>
+            <h4 data-i18n-en="App state" data-i18n-es="Estado">App state</h4>
+            <p data-i18n-en="Global state in context/, kept separate from business rules." data-i18n-es="Estado global en context/, separado de las reglas de negocio.">Global state in context/, kept separate from business rules.</p>
+          </div>
+          <div class="flow-node">
+            <div class="flow-number">3</div>
+            <h4 data-i18n-en="Domain logic" data-i18n-es="Lógica de dominio">Domain logic</h4>
+            <p data-i18n-en="Pure TypeScript in logic/: 1RM, volume and periodization." data-i18n-es="TypeScript puro en logic/: 1RM, volumen y periodización.">Pure TypeScript in logic/: 1RM, volume and periodization.</p>
+          </div>
+          <div class="flow-node">
+            <div class="flow-number">4</div>
+            <h4 data-i18n-en="Native services" data-i18n-es="Servicios nativos">Native services</h4>
+            <p data-i18n-en="services/: biometrics, calendar, TTS, notifications." data-i18n-es="services/: biometría, calendario, TTS, notificaciones.">services/: biometrics, calendar, TTS, notifications.</p>
+          </div>
+          <div class="flow-node">
+            <div class="flow-number">5</div>
+            <h4 data-i18n-en="Local storage" data-i18n-es="Almacenamiento local">Local storage</h4>
+            <p data-i18n-en="On-device persistence with AsyncStorage." data-i18n-es="Persistencia en el dispositivo con AsyncStorage.">On-device persistence with AsyncStorage.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-section">
+      <div class="container">
+        <h2 data-i18n-en="Key engineering decisions" data-i18n-es="Decisiones técnicas clave">Key engineering decisions</h2>
+        <div class="case-grid">
+          <div class="case-card">
+            <h3 data-i18n-en="Offline-first by design" data-i18n-es="Offline-first desde el diseño">Offline-first by design</h3>
+            <p data-i18n-en="The whole app runs without a backend, so it works anywhere and keeps user data on the device." data-i18n-es="Toda la app funciona sin backend, así sirve en cualquier lugar y los datos del usuario se quedan en el dispositivo.">The whole app runs without a backend, so it works anywhere and keeps user data on the device.</p>
+          </div>
+          <div class="case-card">
+            <h3 data-i18n-en="Pure logic, isolated from the UI" data-i18n-es="Lógica pura, aislada de la interfaz">Pure logic, isolated from the UI</h3>
+            <p data-i18n-en="Training math lives in plain TypeScript functions with no UI or device dependencies, which makes it easy to test and reuse." data-i18n-es="Los cálculos de entrenamiento viven en funciones TypeScript puras, sin dependencias de interfaz ni del dispositivo, lo que facilita probarlas y reutilizarlas.">Training math lives in plain TypeScript functions with no UI or device dependencies, which makes it easy to test and reuse.</p>
+          </div>
+          <div class="case-card">
+            <h3 data-i18n-en="Clear layer boundaries" data-i18n-es="Capas con límites claros">Clear layer boundaries</h3>
+            <p data-i18n-en="~19,600 lines across 65 source files organized into logic/, services/ and context/ following Clean Architecture." data-i18n-es="~19,600 líneas en 65 archivos fuente organizados en logic/, services/ y context/ siguiendo Clean Architecture.">~19,600 lines across 65 source files organized into logic/, services/ and context/ following Clean Architecture.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-section">
+      <div class="container">
+        <h2 data-i18n-en="Quality &amp; testing" data-i18n-es="Calidad y pruebas">Quality &amp; testing</h2>
+        <ul>
+            <li data-i18n-en="46 automated Jest unit tests (npm test) covering 1RM estimation, weekly volume per muscle group and 12-week periodization with deloads." data-i18n-es="46 pruebas unitarias automatizadas con Jest (npm test) que cubren la estimación de 1RM, el volumen semanal por grupo muscular y la periodización de 12 semanas con descargas.">46 automated Jest unit tests (npm test) covering 1RM estimation, weekly volume per muscle group and 12-week periodization with deloads.</li>
+            <li data-i18n-en="Strictly typed TypeScript codebase." data-i18n-es="Código en TypeScript con tipado estricto.">Strictly typed TypeScript codebase.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!--
+      SCREENSHOTS & VIDEO (pending)
+      1) Put screenshots in assets/casos/smartgym/ (e.g. 01.png, 02.png, 03.png). Hide personal data first.
+      2) Uncomment the block below and adjust file names / alt texts.
+      3) For the demo video, upload it to YouTube (unlisted is fine) or Loom and paste the embed URL.
+
+    <section class="case-section">
+      <div class="container">
+        <h2 data-i18n-en="Screenshots" data-i18n-es="Capturas">Screenshots</h2>
+        <div class="case-gallery">
+          <img src="../assets/casos/smartgym/01.png" alt="SmartGym – screen 1" loading="lazy">
+          <img src="../assets/casos/smartgym/02.png" alt="SmartGym – screen 2" loading="lazy">
+          <img src="../assets/casos/smartgym/03.png" alt="SmartGym – screen 3" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="case-section">
+      <div class="container">
+        <h2 data-i18n-en="Demo video" data-i18n-es="Video demo">Demo video</h2>
+        <div class="case-video">
+          <iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID" title="SmartGym demo" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+    -->
+
+    <section class="case-section">
+      <div class="container">
+        <div class="cta-section">
+          <h2 data-i18n-en="Want to see it running?" data-i18n-es="¿Quieres verlo funcionando?">Want to see it running?</h2>
+          <p data-i18n-en="I can walk you through the product and its code in a live session." data-i18n-es="Puedo mostrarte el producto y su código en una sesión en vivo.">I can walk you through the product and its code in a live session.</p>
+          <div class="cta-buttons">
+            <a href="mailto:psicologofabiotorres@gmail.com" class="btn-primary"><span data-i18n-en="Request a walkthrough" data-i18n-es="Solicitar un recorrido">Request a walkthrough</span></a>
+            <a href="../index.html#projects" class="btn-secondary"><span data-i18n-en="More projects" data-i18n-es="Más proyectos">More projects</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div><p>&copy; 2026 Fabio Ignacio Torres Benítez</p></div>
+      <div><a href="../index.html" style="color: var(--accent-primary); font-weight: 600;">neurodeveloper11.github.io/portfolio</a></div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

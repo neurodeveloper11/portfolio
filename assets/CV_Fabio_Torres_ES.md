@@ -1,7 +1,7 @@
 # FABIO IGNACIO TORRES BENÍTEZ
 **Ingeniero de Datos | Desarrollador de Software Full-Stack & IA | Científico de Datos**  
 📍 Cali / Buenaventura, Colombia (Disponible para Trabajo Remoto Global, Híbrido y Reubicación Internacional)  
-📱 Móvil / WhatsApp: +57 321 628 4300 | +57 312 889 6929  
+📱 Móvil / WhatsApp: +57 321 628 4300  
 ✉️ Correo Electrónico: psicologofabiotorres@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/fabio-torres-39364b258) | [GitHub](https://github.com/neurodeveloper11) | [Hugging Face](https://huggingface.co/neurodeveloper) | [Google Play (NeuroGym Live)](https://play.google.com/store/apps/details?id=com.t11.neurochess&hl=es_419)
 
@@ -9,11 +9,11 @@
 
 ## PERFIL PROFESIONAL Y PROPUESTA DE VALOR
 
-**Ingeniero de Datos, Desarrollador Full-Stack e Ingeniero de Inteligencia Artificial** con sólida formación de posgrado en **Maestría en Ingeniería de Datos e Infraestructura Cloud** y una base de más de **10 años de liderazgo profesional en Psicología Organizacional y Conductual**. 
+**Ingeniero de Datos, Desarrollador Full-Stack e Ingeniero de Inteligencia Artificial** que cursa la **Maestría en Ingeniería de Datos e Infraestructura Cloud (UTEL, en curso)**, con una base de más de **10 años de liderazgo profesional en Psicología Organizacional y Conductual**. 
 
-Especialista en concebir, arquitectar y poner en producción sistemas de software robustos y canalizaciones de datos escalables. Autor de aplicaciones móviles de alta complejidad con arquitecturas *offline-first* (**SmartGym** — ~19,600 líneas de TypeScript y 46 pruebas automatizadas; **NeuroGym** — publicada en **Google Play Store** con 37+ juegos cognitivos y motor de IA híbrido), plataformas cuantitativas de predicción financiera con Machine Learning (**BTC Quant Lab** — FastAPI con latencia <120ms) y orquestación multi-modelo de LLMs (**EnglishEasy**).
+Especialista en concebir, arquitectar y poner en producción sistemas de software robustos y canalizaciones de datos escalables. Autor de aplicaciones móviles de alta complejidad con arquitecturas *offline-first* (**SmartGym** — ~19,600 líneas de TypeScript y 46 pruebas automatizadas; **NeuroGym** — publicada en **Google Play Store** con más de 51 juegos cognitivos y motor de IA híbrido), plataformas cuantitativas de predicción financiera con Machine Learning (**BTC Quant Lab** — FastAPI con latencia <120ms) y orquestación multi-modelo de LLMs (**EnglishEasy**).
 
-Doble certificación profesional de **IBM** en Ciencia de Datos y Desarrollo Full Stack. Cuenta con un **foso defensivo de dominio único**: la aplicación de modelos psicométricos, análisis de telemetría de usuario y principios de psicología cognitiva para optimizar la retención de productos digitales, la ergonomía de software y la evaluación ética y libre de sesgos en sistemas de Inteligencia Artificial. Campeón Nacional de Ajedrez, con experiencia liderando comunidades de más de 7,000 personas y facilitando procesos críticos bajo alta presión. Bilingüe: Español (Nativo) e Inglés (Nivel Profesional B2/C1).
+Doble certificación profesional de **IBM** en Ciencia de Datos y Desarrollo Full Stack. Su diferencial es la aplicación de modelos psicométricos, análisis de telemetría de usuario y principios de psicología cognitiva para optimizar la retención de productos digitales, la ergonomía de software y la evaluación ética y libre de sesgos en sistemas de Inteligencia Artificial. Campeón Nacional de Ajedrez Sub-16 (2009), con experiencia liderando comunidades de más de 7,000 personas y facilitando procesos críticos bajo alta presión. Bilingüe: Español (Nativo) e Inglés (Nivel Profesional B2/C1).
 
 ---
 
@@ -23,7 +23,7 @@ Doble certificación profesional de **IBM** en Ciencia de Datos y Desarrollo Ful
 - **Backend, APIs y Cloud:** FastAPI (asíncrono, OpenAPI/Swagger), Node.js, Vercel Serverless, Firebase (Auth, Firestore, Cloud Functions), GCP / AWS core, Docker, testing automatizado (`pytest`, `jest`), Clean Architecture, principios SOLID.
 - **Frontend y Desarrollo Móvil:** React Native, Expo (SDK 57, EAS Build), TypeScript, React.js, Vite, Android Nativo (Kotlin, Jetpack Compose, Room DB), arquitecturas *offline-first* con persistencia local y sincronización asíncrona.
 - **Inteligencia Artificial y LLMs:** Orquestación de APIs de LLMs (Gemini, Anthropic Claude, OpenRouter), Prompt Engineering avanzado, proxies serverless, telemetría de producto, evaluación cuantitativa de modelos y alineación de sesgos.
-- **Foso Conductual y Liderazgo:** Psicometría, Batería de Factores de Riesgo Psicosocial (Res. 2764/2022), ergonomía cognitiva, diseño de incentivos conductuales, toma de decisiones estratégicas de alta presión (Maestro de Ajedrez).
+- **Ciencias del Comportamiento y Liderazgo:** Psicometría, Batería de Factores de Riesgo Psicosocial (Res. 2764/2022), ergonomía cognitiva, diseño de incentivos conductuales, toma de decisiones estratégicas bajo presión (entrenador de ajedrez).
 
 ---
 
@@ -39,7 +39,7 @@ Doble certificación profesional de **IBM** en Ciencia de Datos y Desarrollo Ful
 ### NeuroGym — Plataforma Móvil de Entrenamiento Cognitivo y Asistente de IA Híbrido
 *Rol: Creador y Desarrollador Líder* | React Native, Android, Firebase, SQLite, Vercel Serverless, LLMs | *2024 – Presente*  
 *Publicación Oficial:* [Disponible en Google Play Store](https://play.google.com/store/apps/details?id=com.t11.neurochess&hl=es_419)
-- Conceptualicé, diseñé y desplegué en **Google Play** una plataforma interactiva de estimulación neurocognitiva con **37+ minijuegos** que entrenan funciones ejecutivas, memoria operativa y velocidad de reacción.
+- Conceptualicé, diseñé y desplegué en **Google Play** una plataforma interactiva de estimulación neurocognitiva con **más de 51 minijuegos** que entrenan funciones ejecutivas, memoria operativa y velocidad de reacción.
 - Diseñé un **asistente de IA conversacional híbrido** que conmuta de forma inteligente entre inferencia local para respuestas sin conexión y llamadas a modelos de lenguaje en la nube a través de proxies serverless para análisis cognitivo profundo.
 - Construí un **pipeline de telemetría offline-first** con SQLite y sincronización asíncrona hacia Firebase Firestore, garantizando un 99.8% de disponibilidad de sesiones y reduciendo la latencia de inferencia en un 40% mediante almacenamiento en caché en el borde.
 - Programé un algoritmo de **Ajuste Dinámico de Dificultad (DDA)** que analiza milisegundos de tiempo de reacción ($RT$) en tiempo real, incrementando las tasas de retención de usuario en un 35%.
@@ -54,7 +54,7 @@ Doble certificación profesional de **IBM** en Ciencia de Datos y Desarrollo Ful
 ### EnglishEasy — Plataforma Web de Aprendizaje Adaptativo con Evaluación por IA
 *Rol: Ingeniero Full-Stack* | React, Vite, TypeScript, Firebase Auth & Firestore, Serverless Multi-LLM Proxy | *2024 – Presente*
 - Desarrollé una plataforma web interactiva de aprendizaje acelerado de idiomas con evaluación fonética y gramatical en tiempo real impulsada por orquestación dinámica de LLMs (Google Gemini y Anthropic Claude).
-- Construí un proxy serverless multi-proveedor en Vercel que optimizó el consumo de tokens y redujo los tiempos de carga en un 45%.
+- Construí un proxy serverless multi-proveedor en Vercel que enruta solicitudes entre proveedores y optimiza el consumo de tokens.
 
 ### Centinela — Aplicación Móvil Nativa de Seguridad Antirrobo para Android
 *Rol: Ingeniero Android Nativo* | Kotlin, Jetpack Compose, Room DB, DataStore, PBKDF2 | *2024 – Presente*
@@ -73,7 +73,7 @@ Doble certificación profesional de **IBM** en Ciencia de Datos y Desarrollo Ful
 **Empresa Saludo (Fundación de Salud Ocupacional de Occidente Ltda)** | Buenaventura, Colombia  
 *Marzo 2015 – Presente (10+ años de trayectoria continua)*
 - Lidero la aplicación y procesamiento estadístico de la Batería de Instrumentos de Riesgo Psicosocial (Resoluciones 2764/2022 y 2646/2008 del Ministerio del Trabajo) para corporaciones logísticas del sector portuario internacional (**Compas Cascajal** y **Compas Agua Dulce**).
-- Transformé evaluaciones psicométricas manuales en conjuntos de datos estructurados para más de 1,500 colaboradores, correlacionando factores de riesgo y diseñando intervenciones cuantitativas que redujeron los índices de estrés ocupacional en un 28%.
+- Transformé evaluaciones psicométricas manuales en conjuntos de datos estructurados para más de 1,500 colaboradores, correlacionando factores de riesgo y fundamentando el diseño de intervenciones cuantitativas.
 - Dirección de procesos de selección de personal técnico y especializado, evaluación por competencias críticas y auditorías de clima laboral.
 
 ### Profesional Psicosocial y Facilitador de Grupos
@@ -146,7 +146,4 @@ Doble certificación profesional de **IBM** en Ciencia de Datos y Desarrollo Ful
 - **Español:** Nativo.
 - **Inglés:** Nivel Profesional B1 Alto / C1 Técnico. Formación de 300 horas certificada por English Live (2022). Fluidez para diseño de sistemas, entrevistas técnicas y redacción de código y documentación.
 
-**Referencias Profesionales:**
-- **Dr. Ramón Díaz:** Gerente General, Empresa Saludo (Fundación de Salud Ocupacional de Occidente Ltda) | Tel: (+57) 242 3900
-- **Lic. Noralva Bravo:** Docente y Directiva Educativa | Móvil: (+57) 313 708 8790
-- **Mónica Díaz:** Coordinadora Administrativa, Empresa Saludo | Móvil: (+57) 315 522 3052
+**Referencias profesionales:** disponibles a solicitud.
